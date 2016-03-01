@@ -1,0 +1,81 @@
+body{background: #fff;}
+#wrap{float:left;width:100%;margin:0 auto;height:auto;background: #fff;}
+#top{float:left;width:100%;height:48px;border-bottom: 1px solid #ccc;float:left;background: #fff;}
+#top a {display: block;float: left;height:48px;width:50px;cursor: pointer;margin-left: 4.8%;}
+#top a img{float:left;height:40%;margin-top: 14px;}
+#top h2{float:left;display: inline-block;line-height: 48px;color:#444;font-weight: lighter;
+		margin-left: 26%;font-size: 1.6em;}
+
+.list{float:left;width:100%;height:auto;background: #fff;}
+.list span{float:right;line-height: 40px;color: #eee;}
+
+.list .product{float:left;width:100%;height:93px;border-bottom: 1px solid #eee;}
+.list .product .img{float:left;display: inline-block;margin-left: 4.8%;margin-top:6px;height:48%;width:27%;}
+.list .product .img img{height:60px;}
+
+.list .product .list_msg{float:left;display: inline-block;width:66.2%;background:;height:116px;
+						line-height: 1;}
+.list .product .list_msg h3{float:left;font-weight: lighter;width:40%;overflow:hidden;text-overflow:ellipsis;color: #444;
+							margin-left:2.4%;display: inline-block;margin-top:14px;font-size: 1.4em}
+.list .product .list_msg img{float:right;height:19%;margin-top:14px;}
+.list .product .list_msg p{float:left;font-size: 1.4em;color: #aaa;width:60%;margin-left: 2.4%;line-height: 1.5;}
+.list .product .list_msg a{color: #aaa;}
+
+.list .product .list_msg .num{width:80%;float: left;margin-left: 2.4%;}
+.list .product .list_msg .num span{display: block;float: left;width: 30px;height:30px;background: #ccc;color: #fff;
+								line-height: 30px;border-radius: 50%;text-align: center;font-size: 3em;cursor: pointer;}
+.list .product .list_msg .num b{float: left;line-height: 30px;margin-left: 1%;margin-right: 1%;font-size: 1.8em;
+								font-weight:lighter;}
+.list .product .list_msg .num .add{background: #eb1d66}
+
+.all{float:left;background: #fff;margin-top: 10px;width:100%;height:46px;}
+.all h2 {float:left;line-height: 46px;margin-left: 5%;display: inline-block;}
+.all ul{width:75%;height:46px;float: left;background: ;}
+.all ul li {float: left;margin-left:10%;margin-top:13px;}
+.all ul li img{height:20px;}
+
+.liuyan {float:left;width:100%;height:165px;border-bottom: 1px solid #eee;background: #fff;margin-top:10px;}
+.liuyan p{margin-left:5%;margin-top:20px;font-size: 1.4em;}
+.liuyan textarea{width:80%;margin-left: 10%;border: 1px solid #eee; background: #fdfdfd;height:100px;margin-top: 10px;
+				border-radius: 5px;line-height: 30px;font-family: '微软雅黑';}
+.add	{width:100%;height:200px;background: #fff;float:left;}
+.add p  {font-size: 1.4em;margin-top: 20px;margin-left: 5%;}
+.add ul	{width:92%;height:85px;margin-left:4%;margin-top:13px;}
+.add ul li {width:74px;height:76px;border: 2px dashed #ccc;float: left;margin-left: 2%;background: #fdfdfd;border-radius: 7px;text-align: center;}
+.add ul li img{height:24px;margin-top:25px;}
+.add input{float:left;margin-left: 7%;margin-top: 37px;}
+.add span{float: left;margin-left: 1%;margin-top: 33px;color: #666;}
+
+.jiesuan{width:100%;float:left;height:70px;margin-top:75px;background: #f2f2f2;line-height: 70px;
+		border-bottom: #ccc 1px solid;position: absolute;left: 0;bottom:60px; }
+.jiesuan p{float:left;margin-left: 5%;font-size: 1.4em}
+.jiesuan span{float: left;margin-left: 1%;font-size: 1.8em;color:#eb1d66;font-weight: bold; }
+.jiesuan a{float:right;width:120px;height:37px; background: #eb1d66;border: 0;border-radius: 5px;color: #fff;
+	font-size: 1.4em;margin-top: 17px;margin-right: 5%;cursor: pointer;display: block;line-height: 37px;text-align: center;}
+.footer{width:100%;float:left;background: #f2f2f2;height:60px;position: absolute;left: 0;bottom: 0;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

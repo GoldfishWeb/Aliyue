@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>添加商户</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/addShang.css">
+	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="layer/layer.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(".bottom p").click(function(){				
+				// $(".sel_show .title h1").innerHtml=$(this).html();
+				var index = layer.open({
+					type: 1,
+					title: false,
+					closeBtn: true,
+					shadeClose: false,
+					offset: '25%',
+					content: "<div class='show'><form><ul><li><p>店铺名称</p><input type='text' placeholder=' 请输入姓名'></li><li><p>联系方式</p><input type='text' placeholder=' 请输入联系方式'></li><li><p>详细地址</p><input type='text' placeholder=' 请输入详细地址'></li></ul><input type='submit' value='保存' onclick='javascript:layer.closeAll();' class='btn'></form></div>"
+				});
+			});	
+			
+			$(".mes_choose").click(function(){
+				var imgClass = $(this).find("img").attr("class");
+				imgClass == "img_hide"? $(this).find("img").removeClass("img_hide") :　$(this).find("img").addClass("img_hide");
+			})
+
+		});
+	</script>
+</head>
+<body>
+	<div id="wrap">
+		<div id="top">
+			<span><img src="images/fanhui@3x.png" alt="back"></span>
+			<h2>添加商户</h2>		
+		</div>
+		<form>
+			<div class="mes">		
+					<div class="mes_choose"><div class="radio"><img class="img_hide"  src="images/xuanzhong@3x.png"/></div></div>
+					<div class="nr">
+						<h2>好再来</h2>
+						<a href="#"><img src="images/dianhua@3x.png"></a>
+						<p>北京市昌平区天通苑南</p>
+						<p><img src="images/Rectangle 1376 + dingwei2@3x.png">1.2km</p>
+					</div>			
+			</div>
+			<div class="mes">	
+					<div class="mes_choose"><div class="radio"><img class="img_hide" src="images/xuanzhong@3x.png"/></div></div>
+					<div class="nr">
+						<h2>好再来</h2>
+						<a href="#"><img src="images/dianhua@3x.png"></a>
+						<p>北京市昌平区天通苑南</p>
+						<p><img src="images/Rectangle 1376 + dingwei2@3x.png">1.2km</p>
+					</div>			
+			</div>
+			<div class="bottom"><img src="images/tianjia@3x.png"><p>添加商户</p><button>保存</button></div>
+		</form>
+		<div class="clear"></div>
+	</div>
+</body>
+</html>

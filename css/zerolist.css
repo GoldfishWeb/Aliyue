@@ -1,0 +1,50 @@
+
+#wrap{width:100%;margin:0 auto;height:auto;}
+#top{width:100%;height:48px;border-bottom: 1px solid #ccc;}
+#top a {display: block;float: left;height:48px;width:50px;cursor: pointer;margin-left: 4.8%;}
+#top a img{float:left;height:40%;margin-top: 14px;}
+#top h2{display: inline-block;line-height: 48px;color:#444;font-weight: lighter;
+		margin-left: 27%;font-size: 1.6em;}
+.nav {width:100%;height:38px;}
+.nav ul {width:100%;height:38px;}
+.nav ul li{float:left;width:20%;height:36px;text-align: center;line-height: 38px;}
+.nav ul li a{color:#444;display: block;width: 100%;height: 36px;font-size: 1.4em;}
+.selected{border-bottom: 2px solid #eb1d66;color:#eb1d66;font-size: 1.2em;}
+.content {display: none;}
+
+.list{width:100%;border-top: 10px solid #eee;height:206px;}
+.listnum{border-bottom: 1px solid #ccc;height:40px;}
+.list p{display: inline-block;line-height: 40px;color: #444;margin-left: 5.6%;font-size: 1.2em;color: #333;}
+.list span{float:right;line-height: 40px;color: #ccc;margin-right: 5.5%;font-size: 1.2em;}
+
+.list .product{width:100%;height:165px;cursor: pointer;}
+.list .product .img{float:left;display: inline-block;margin-left: 4.8%;margin-top:8px;height:48%;width:27%;}
+.list .product .img img{float: left;height:86px;max-width: 100%;}
+.list .product .list_msg{float:left;display: inline-block;width:66.2%;background:;height:116px;border-bottom: 1px solid #ccc;
+						line-height: 1;}
+.list .product .list_msg h3{float:left;font-weight: lighter;width:40%;overflow:hidden;text-overflow:ellipsis;color: #444;
+							margin-left:2.4%;display: inline-block;margin-top:10px;font-size: 1.4em}
+.list .product .list_msg img{float:right;height:19%;margin-top:9px;}
+.list .product .list_msg p{float:left;font-size: 2em;font-weight: bolder;
+							color: #eb1d66;width:60%;margin-left: 2.4%;line-height: 1.5;}
+.list .product .list_msg ul{float:left;width:100%;line-height: 1.5;padding-left: 2.4%}
+.list .product .list_msg ul li{width:50%;float:left;}
+.list .product .list_msg button{margin-left: 2.4%;float: left;width:50px;height:20px;color: #fff;font-size: 1em;margin-top: 2px;}
+.list .product .list_msg .fu{background: #4a90e2;border:0;}
+.list .product .list_msg .shou{background: #d5d5d5;border:0;}
+.list .product .list_msg .wei{background: #f3a31e;border: 0;}
+.list .product .list_msg span{font-size: 1.6em;color:#444;margin-top: -5px;}
+.list .product li{color: #666;}
+.list .product .aa{text-decoration: line-through;}
+
+.list .product .btn{float:right;margin-right:5%;width:21%;height:30px;margin-top: 9px;cursor: pointer;display: block;
+					background: #eee;border-radius: 2px;text-align: center;line-height: 30px;color: #666;
+					border: 1px solid #ccc;}
+.list .product .ling{float:left;margin-left:3%;width:18%;height:30px;margin-top: 9px;cursor: pointer;display: block;
+					background: #eee;border-radius: 2px;text-align: center;line-height: 30px;color: #666}
+
+.list .product .fen{background: #eb1d66;color: #fff;border: 0;}
+.list .product .hui{background: #ccc;color: #fff;border: 0;}
+
+.list .product .kuaidi h2{float:left;font-weight:lighter;margin-left:33%;font-size: 1.4em;line-height: 20px;color: #666;}
+.list .product .kuaidi p{float: left;font-size: 1.4em;margin-left:10px;line-height: 20px;color: #666;}

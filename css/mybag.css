@@ -1,0 +1,54 @@
+
+#wrap{float:left;width:100%;margin:0 auto;height:auto;background: #f2f2f2;}
+#top{float:left;width:100%;height:48px;border-bottom: 1px solid #ccc;float:left;background: #fff;}
+#top a {display: block;float: left;height:48px;width:50px;cursor: pointer;margin-left: 4.8%;}
+#top a img{float:left;height:40%;margin-top: 14px;}
+#top h2{float:left;display: inline-block;line-height: 48px;color:#444;font-weight: lighter;
+		margin-left: 26%;font-size: 1.6em;}
+#top img{height:18px;float:right;margin-right:5%;margin-top: 14px;}		
+
+.yuE{float: left;width: 100%;height: 61px;background: #fff;min-width: 320px;}
+.yuE .miaosha{float: left;width:92%;height:45px;margin-left: 4%;background: #f2f2f2;border-radius: 5px;border: 1px solid #ccc;
+				margin-top:8px;}
+.yuE .miaosha img{height:26px;float: left;margin-left: 3%;margin-top: 10px;}				
+.yuE .miaosha h2{margin-left: 15%;font-size: 1.6em;font-weight: lighter;line-height: 45px;display: inline-block; color: #666;}
+.yuE .miaosha a{float: right;color: #fff;margin-right: 5%;line-height: 26px;font-size: 1.2em;display: block;
+				width: 64px;height:26px;background: #f5a623;border-radius: 5px;margin-top: 10px;text-align: center;}
+.yuE .miaosha p{margin-left: 5%;font-size: 3em;color: #eb1d66;}
+
+.yy{float:left;width:100%;height:auto;float: left;background: #fff;margin-top: 10px;}
+.yy ul{float: left;width: 100%;height: auto;}
+.yy ul li{float: left;width:32.5%;height:170px;border: 1px solid #eee;text-align: center;}
+.yy ul li a{font-size: 1.4em;color: #666;display: block;width:100%;height:100%;text-align: center;}
+.yy ul li a img{height:22px;margin-top: 50px;}
+.yy ul li a h2{font-weight: lighter;font-size: 1.4em;color: #888;line-height:40px; }
+.yy ul li a p{font-size: 1.2em;color: #333;line-height:40px; }
+
+.clear{clear: both;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

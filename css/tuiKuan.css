@@ -1,0 +1,68 @@
+
+#wrap{float:left;width:100%;margin:0 auto;height:auto;background: #f2f2f2;}
+#top{float:left;width:100%;height:48px;border-bottom: 1px solid #ccc;float:left;background: #fff;}
+#top a {display: block;float: left;height:48px;width:50px;cursor: pointer;margin-left: 4.8%;}
+#top a img{float:left;height:40%;margin-top: 14px;}
+#top h2{display: inline-block;line-height: 48px;color:#444;font-weight: lighter;
+		margin-left: 26%;font-size: 1.6em;}
+.money{float:left;width:100%;height:105px;background: #fff;}
+.money h2{width:100%; height: 45px;line-height: 45px;border-bottom: 1px solid #eee;}
+.money h2 a{margin-left: 5%;display: inline-block;font-weight: lighter;}
+.money h2 span{float: right;margin-right: 5%;color: #333;font-weight: lighter;}
+.money p{width:80%;text-align: center;margin-top: 8px;margin-left: 10%;color: #888;}
+
+.reason{float:left;width:100%;height:auto;background: #fff;}
+.reason h2{width:100%; height: 45px;border-bottom: 1px solid #eee;line-height: 45px;font-weight: lighter;}
+.reason h2 p{margin-left: 5%;}
+.reason ul {float:left;width:100%;height:auto;}
+.reason ul li{width: 100%;height:45px;float: left;border-bottom: 1px solid #eee;line-height: 45px;}
+.reason ul li img{float: left;height: 18px;margin-left: 5%;}
+.reason ul li a{font-size: 1.2em;color: #666;margin-left: 5%;}
+.reason ul li input{float: right;margin-right: 5%;}
+
+.mes{width: 100%;height:140px;float: left;background: #fff;margin-top: 10px;}
+.mes h2{width:100%; height: 45px;border-bottom: 1px solid #eee;line-height: 45px;font-weight: lighter;}
+.mes h2 p{margin-left: 5%;}
+.mes ul {width: 100%;height:auto;float: left;}
+.mes ul li{width: 100%;height:40px;float: left;line-height: 40px;margin-top:8px;}
+.mes ul li p{float: left;width: 20%;margin-left: 5%;color: #666;}
+.mes ul li input{line-height: 38px;height: 36px;width:40%;background: #f2f2f2;border: 1px solid #ccc;float: left; 
+				text-align: center;font-family: '微软雅黑';}
+.tuikuan{width:100%;float:left;background: #fff;height:160px;text-align: center;}
+.tuikuan button{width:305px;height:46px;margin-top:60px;background: #f3a31e;border: 0;border-radius: 5px;color: #fff;font-size: 1.4em;
+				font-family: '微软雅黑';cursor: pointer;}
+.clear{clear: both;}
+
+.mes_choose{background: #fff;float: right;width: 12%;height: 45px;cursor: pointer;margin-right: 4%;}
+.radio{position:relative;width:20px;height: 20px;border-radius: 20px;float: left;background: #fff;margin-left: 50%;
+		border: #919191 1px solid;margin-top: 10px;}
+.radio img{position:absolute;width: 30px;left:-5px;}
+.img_hide{display: none;}
+
+.layui-layer-btn{border-top:#eee 1px solid;padding: 0!important;height:40px;}
+.layui-layer-btn .layui-layer-btn0{width: 49%;border-right: 1px solid #eee;background: #fff;color: #f3a31e;line-height: 40px;
+									float: left;margin: 0;padding: 0;font-size: 1.4em;font-weight: lighter;height:40px;}
+.layui-layer-btn .layui-layer-btn1{width: 49%;background: #fff!important;color: #f3a31e;height:40px;line-height: 40px;
+									float: right;margin: 0;padding: 0;font-size: 1.4em;font-weight: lighter;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

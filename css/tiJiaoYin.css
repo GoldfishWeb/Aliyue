@@ -1,0 +1,55 @@
+
+#wrap{float:left;width:100%;margin:0 auto;height:auto;background: #f2f2f2;}
+#top{float:left;width:100%;height:48px;float:left;background: #fff;border-bottom: 1px solid #ccc;}
+#top a {display: block;float: left;height:48px;width:50px;cursor: pointer;margin-left: 4.8%;}
+#top a img{float:left;height:40%;margin-top: 14px;}
+#top h2{float:left;display: inline-block;line-height: 48px;color:#444;font-weight: lighter;
+		margin-left: 26%;font-size: 1.6em;}
+
+.nr {width: 100%;height:auto;background: #fff;float: left;min-width: 320px;text-align: center;}
+.nr  b{width: 100%;text-align: center;color: #888;margin-bottom: 45px;margin-top: 25px;
+			font-weight:lighter;display: block;}
+.nr img{height:38px;margin-top: 45px;}
+.nr  form{width:100%;height:auto;float: left;min-width: 320px;}
+.nr  form ul{width: 95%;margin-left: 5%;}
+.nr  form ul li{width: 100%;float: left;height:50px;text-align: left;height:40px;line-height: 40px;
+					margin-top: 1%;}
+.nr  form ul li p{float: left;width:20%;display: inline-block;}
+.nr  form ul li input{float: left;width: 50%;height:39px;line-height: 39px;border: 0;background: #fff;
+						background: #fff;text-align: left;color: #888;}
+.nr  form ul li h3{float: left;display: inline-block;color: #4a9eed;margin-right: 1%;}
+.nr  form ul li a{float: right;margin-right: 3%;width:25%;height:20px;margin-top:10px;border-left: 1px solid #eee;
+						display: block;text-align: center;line-height:20px;color: #666;}
+.nr  form .btn {width: 80%;float: left;margin-left: 10%;text-align: center;background: #eb1d66;
+				line-height: 46px;height:46px;color:#fff;border: 0;border-radius: 5px;margin-top: 40px;
+				font-family: '微软雅黑';font-size: 1.6em;margin-bottom: 20px;cursor: pointer;}
+.clear{clear: both;}
+
+.nr .content{display: none;}
+.ka .selected{color: #eb1d66;border-bottom: 2px solid #eb1d66;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

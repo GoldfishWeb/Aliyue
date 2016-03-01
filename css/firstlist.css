@@ -1,0 +1,50 @@
+
+#wrap{float:left;width:100%;margin:0 auto;height:auto;background: #f2f2f2;}
+#top{float:left;width:100%;height:48px;float:left;background: #fff;margin-bottom: 10px;}
+#top a {display: block;float: left;height:48px;width:50px;cursor: pointer;margin-left: 4.8%;}
+#top a img{float:left;height:40%;margin-top: 14px;}
+#top h2{display: inline-block;line-height: 48px;color:#444;font-weight: lighter;
+		margin-left: 26%;font-size: 1.6em;}
+
+.list{width:100%;height:auto;float: left;background: #fff;position: relative;}
+.list ul {width:100%;height:auto;}
+.list ul li{width:100%;height:265px;border-bottom: 1px solid #eee;}
+.list .title{width: 100%;height:44px;line-height: 44px;}
+.list .title h2{float: left;margin-left: 5%;font-size: 1.4em;display: inline-block;font-weight: lighter;}
+.list .title span{float: right;margin-right: 3%;color: #666;}
+.list .content{width:90%;margin-left:5%;height:120px;background: #f2f2f2;}
+.list .content img{height:120px;float: left;}
+.list .content h2{font-size: 1.8em;text-align: center;line-height: 60px;font-weight: lighter;}
+.list .content h1{font-size: 2.8em;color: #eb1d66;text-align: center;line-height: 50px;}
+.list .content p{float: left;width: 100%;margin-top: 10px;color: #666;}
+.list .content .tiao{display: block;width: 100px;height:30px;float: left;margin-top:10px;
+					line-height: 30px;cursor: pointer;color: #666;}
+
+.clear{clear: both;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

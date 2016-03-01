@@ -1,0 +1,59 @@
+
+#wrap{float:left;width:100%;margin:0 auto;height:auto;background: #f2f2f2;}
+#top{float:left;width:100%;height:48px;border-bottom: 1px solid #ccc;float:left;background: #fff;}
+#top span {display: block;float: left;height:48px;width:50px;cursor: pointer;margin-left: 4.8%;}
+#top span img{float:left;height:40%;margin-top: 14px;}
+#top h2{display: inline-block;line-height: 48px;color:#444;font-weight: lighter;
+		margin-left: 26%;font-size: 1.6em;}
+.money{float:left;width:100%;height:auto;background: #f2f2f2;margin-top:10px}
+.money h2{width:100%; height: 45px;line-height: 45px;background: #fff;}
+.money h2 p{margin-left: 5%;display: inline-block;font-weight: lighter;}
+.money h2 span{float: right;margin-right: 5%;color: #eb1d66;}
+.money ul {float:left;width:100%;height:auto;background: #fff;margin-top: 10px;}
+.money ul li{width: 100%;height:45px;line-height: 45px;border-bottom: #eee 1px solid;}
+.money ul li p{float: left;font-size: 1.4em;margin-left: 5%;}
+.money ul li span{float: left;font-size: 1.2em;margin-top: 1px;color: #ccc;}
+.money ul li a{display: block;float: right;margin-right: 5%;width:40px;height:45px;}
+.money ul li a img{height:18px;margin-top: 13px;float: right;}
+
+.way{float:left;width:100%;height:auto;margin-top: 10px;background: #fff;}
+.way h2{width:100%; height: 45px;border-bottom: 1px solid #eee;line-height: 45px;font-weight: lighter;}
+.way h2 p{margin-left: 5%;}
+.way ul {float:left;width:100%;height:auto;}
+.way ul li{width: 100%;height:40px;float: left; margin-top: 23px;}
+.way ul li img{float: left;height: 18px;margin-left: 5%;}
+.way ul li a{font-size: 1.6em;color: #666;line-height: 1;margin-left: 5%;}
+.way ul li input{float: right;margin-right: 5%;}
+
+.tuikuan{width:100%;float:left;background: #fff;height:200px;text-align: center;}
+.tuikuan button{width:305px;height:46px;margin-top:124px;background: #eb1d66;border: 0;border-radius: 5px;color: #fff;font-size: 1.4em;
+				font-family: '微软雅黑';cursor: pointer;}
+.clear{clear: both;}
+
+.mes_choose{background: #fff;float: right;width: 12%;height: 40px;cursor: pointer;margin-right: 4%;margin-top: -10px;}
+.radio{position:relative;width:20px;height: 20px;border-radius: 20px;float: left;background: #fff;margin-left: 50%;border: #919191 1px solid;}
+.radio img{position:absolute;width: 30px;left:-5px;}
+.img_hide{display: none;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

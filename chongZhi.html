@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>充值</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/chongZhi.css">
+	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			var monney_li = $(".money ul li a");
+		
+			monney_li.click(function(){
+				$(this).parent().siblings().find("a").removeClass("sel");
+				$(this).addClass("sel")
+			})
+			
+			$(".way ul li").click(function(){
+				
+				var imgClass = $(this).find(".radio img").attr("class");
+				$(this).siblings().find(".radio img").addClass("img_hide")
+				imgClass == "img_hide"? $(this).find(".radio img").removeClass("img_hide") :　$(this).find(".radio img").addClass("img_hide");
+			})
+		})
+	</script>
+</head>
+<body>
+	<div id="wrap">
+		<div id="top">
+			<a href="mybao.html"><img src="images/fanhui@3x.png" alt="back"></a>
+			<h2>充值</h2>
+		</div>
+		<div class="money">
+			<h2><p>充值金额</p></h2>
+			<ul>
+				<li><a href="#" class="sel">20</a></li>
+				<li><a href="#">50</a></li>
+				<li><a href="#">100</a></li>
+				<li><a href="#">200</a></li>
+				<li><a href="#">500</a></li>
+				<li><a href="#" style="background:#eee!important;"><input placeholder="其他金额"></a></li>				
+			</ul>
+		</div>
+		<div class="way">
+			<h2><p>支付方式</p></h2>
+			<ul>
+				<li><img src="images/iconfont-weixin-3@3x.png"><a href="">微信支付</a>
+					<div class="mes_choose"><div class="radio"><img class="" src="images/xuanzhong@3x.png"/></div></div>
+				</li>
+				<li><img src="images/iconfont-zhifubao@3x.png"><a href="">支付宝支付</a>
+					<div class="mes_choose"><div class="radio"><img class="img_hide" src="images/xuanzhong@3x.png"/></div></div>
+				</li>
+			</ul>
+		</div>
+		<div class="tuikuan">
+			<button>确认</button>			
+		</div>
+		<div class="clear"></div>
+	</div>
+</body>
+</html>

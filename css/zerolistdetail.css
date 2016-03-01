@@ -1,0 +1,39 @@
+
+#wrap{width:100%;margin:0 auto;height:auto;}
+#top{width:100%;height:48px;border-bottom: 1px solid #ccc;float:left;background: #fff;}
+#top a {display: block;float: left;height:48px;width:50px;cursor: pointer;margin-left: 4.8%;}
+#top a img{float:left;height:40%;margin-top: 14px;}
+#top h2{display: inline-block;line-height: 48px;color:#444;font-weight: lighter;
+		margin-left: 26%;font-size: 1.6em;}
+
+.menu{width:100%;height:auto;float:left;background: #FFF;}
+.menu ul{float:left;width:100%;}
+.menu ul li{float:left;width:100%;height:45px;border-bottom: 1px solid #eee;}
+.menu ul li a {float:left;color:#444;line-height: 45px;margin-left: 5.6%;font-size: 1.2em;display: block;width: 20%;}
+.menu ul li span{line-height: 45px;margin-left: 5%;font-size: 1.2em;}
+
+ .product{width:100%;height:125px;border-bottom: 1px solid #eee;float:left;background: #FFF;}
+ .product .img{float:left;display: inline-block;margin-left: 4.8%;margin-top:8px;height:48%;width:27%;}
+
+.product .list_msg{float:left;display: inline-block;width:66.2%;background:;height:116px;line-height: 1;}
+.product .list_msg h3{float:left;font-weight: lighter;width:40%;overflow:hidden;text-overflow:ellipsis;color: #444;
+							margin-left:2.4%;display: inline-block;margin-top:10px;font-size: 1.4em}
+
+.product .list_msg p{float:left;font-size: 2em;font-weight: bolder;
+							color: #eb1d66;width:60%;margin-left: 2.4%;line-height: 1.5;}
+.product .list_msg ul{float:left;width:100%;line-height: 1.5;padding-left: 2.4%}
+.product .list_msg ul li{width:50%;float:left;border: 0;}
+.product .list_msg button{margin-left: 2.4%;float: left;width:50px;height:20px;color: #fff;font-family: '微软雅黑'; font-size: 1em;margin-top: 2px;}
+.product .list_msg .fu{background: #4a90e2;border:0;}
+.product .list_msg .shou{background: #fa863c;border:0;}
+.product .list_msg span{float:right;font-size: 1.6em;color:#444;}
+.product li{color: #666;}
+.product .aa{text-decoration: line-through;}
+
+.total{float:left;width:100%;height:50px;}
+.total span{float:left;line-height: 50px;margin-left: 5%;font-size: 1.2em;}
+.total h1{float:left;color: #f65070;line-height: 50px;margin-left: 3%;}
+
+.tuikuan{width:100%;text-align: center;float: left;}
+.tuikuan a{width:305px;height:46px;background: #f3a31e;border: 0;border-radius: 5px;color: #fff;font-size: 1.4em;
+			margin-top: 3%;font-family: '微软雅黑';cursor: pointer;display: inline-block;line-height: 46px}

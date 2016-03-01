@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+	<meta name="format-detection" content="telephone=no">
+	<title>选取地址</title>
+	<link href="css/reset.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="css/address.css" type="text/css">
+	<link rel="stylesheet" href="css/public.css" type="text/css">
+	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="layer/layer.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(".select_city ul li a").click(function(){				
+				// $(".sel_show .title h1").innerHtml=$(this).html();
+				var index = layer.open({
+					type: 1,
+					title: false,
+					closeBtn: false,
+					shadeClose: false,
+					offset: '25%',
+					content: "<div class='sel_show'><div class='title'><h1>河北省</h1><a href='javascript:layer.closeAll();'>保存</a></div><ul><li><a href='javascript:void(0)'>全部</a></li><li><a href='javascript:void(0)'>石家庄市</a></li><li><a href='javascript:void(0)'>秦皇岛市</a></li><li><a href='javascript:void(0)'>石家庄市</a></li><li><a href='javascript:void(0)'>石家庄市</a></li><li><a href='javascript:void(0)'>石家庄市</a></li><li><a href='javascript:void(0)'>石家庄市</a></li><li><a href='javascript:void(0)'>石家庄市</a></li><li><a href='javascript:void(0)'>唐山市</a></li><li><a href='javascript:void(0)'>唐山市</a></li><li><a href='javascript:void(0)'>唐山市</a></li><li><a href='javascript:void(0)'>唐山市</a></li></ul></div>"
+				});
+				 $(".sel_show ul li a").click(function(){
+				 	// alert(111);
+				 	$(this).css({"background":"#eb1d66","color":"white"});
+				 })
+			});	
+
+		});
+	</script>
+</head>
+<body>
+	
+	<div id="wrap">
+		<div id="top">
+            <span><img src="images/fanhui@3x.png"></span>
+            <h2>选取地址</h2>
+            <a href="">保存</a>
+		</div>
+		<div class="hot_city">
+			<div class="title">
+				<h2>热门城市</h2>
+			</div>
+			<ul>
+				<li><a>北京</a></li>
+				<li><a>成都</a></li>
+				<li><a>重庆</a></li>
+				<li><a>广州</a></li>
+				<li><a>哈尔滨</a></li>
+				<li><a>朝阳区</a></li>
+				<li><a>朝阳区</a></li>
+				<li><a>朝阳区</a></li>
+				<li><a>朝阳区</a></li>
+				<li><a>朝阳区</a></li>
+				<li><a>朝阳区</a></li>
+				<li><a><img src="images/dajihao@3x.png"></a></li>				
+
+			</ul>
+		</div>
+
+		<div class="select_city">
+			<div class="title">
+				<h2>全国城市</h2>
+			</div>
+			<ul>
+				<li class="city_sel"><a href="">全部</a></li>
+				<li><a href="javascript:void(0)">河北省</a></li>
+				<li><a href="javascript:void(0)">黑龙江</a></li>
+				<li><a href="javascript:void(0)">北京市</a></li>
+				<li><a href="javascript:void(0)">辽宁省</a></li>
+				<li><a href="javascript:void(0)">朝阳区</a></li>
+				<li><a href="javascript:void(0)">朝阳区</a></li>
+				<li><a href="javascript:void(0)">朝阳区</a></li>
+				<li><a href="javascript:void(0)">朝阳区</a></li>
+				<li><a href="javascript:void(0)">朝阳区</a></li>
+				<li><a href="javascript:void(0)">朝阳区</a></li>
+				<li><a href="javascript:void(0)">朝阳区</a></li>
+				<li><a href="javascript:void(0)">朝阳区</a></li>
+				<li><a href="javascript:void(0)">朝阳区</a></li>
+				<li><a href="javascript:void(0)">朝阳区</a></li>
+				<li><a href="javascript:void(0)">朝阳区</a></li>
+				<li><a href="javascript:void(0)">朝阳区</a></li>
+				<li><a href=""><img src="images/dajihao@3x.png"></a></li>		
+			</ul>
+		</div>
+		<div class="clear"></div>
+	</div>
+</body>
+</html>

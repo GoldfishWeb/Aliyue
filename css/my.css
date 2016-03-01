@@ -1,0 +1,28 @@
+body{background: #f2f2f2;}
+#wrap{width:100%;margin:0 auto;height:auto;background: #f2f2f2;}
+#top{float:left;width:100%;height:48px;border-bottom: 1px solid #ccc;text-align:center;background: #fff;}
+#top a{float: right;height: 48px;margin-right: 5%;width: 50px;}
+#top a img{float:right;height:40%;margin-top: 14px;}
+#top h2{display: inline-block;line-height: 48px;color:#444;font-weight: lighter;
+		font-size: 1.4em;}
+
+#message{float:left;width:100%;height:105px;background: #fff;min-width: 320px;}
+#message span img{float:left;height:80%;margin-left: 5%;margin-top:10px;}
+#message h3{float:left;margin-left: 10%;color: #444;display: block;width:10%;
+			font-weight: lighter;font-size: 1.4em;margin-top:25px;}
+#message em{width:40%;float: left;} 
+#message em img{width:20px;margin-top: 25px;}
+#message ul{float:left;width:46%;height:20px;margin-left: 8.5%;margin-top: 20px;display: block;}
+#message ul li img{height:15px;float: left;}
+#message ul li {float: left;margin-left: 2%;font-size: 1.4em;width:45%;}
+#message a{display: block;width:30px;height:40px;float: right;margin-right: 5%;margin-top: 0;}
+#message a img{height:14px;float: right;}
+
+.menu{float:left;width:100%;height:auto;margin-top: 10px;background: #fff;}
+.menu ul{float:left;width:100%;}
+.menu ul li{float:left;width:100%;height:45px;border-bottom: 1px solid #eee;}
+.menu ul li img{float:left;height:39%;margin-top:15px;margin-left: 7.2%;}
+.menu ul li a {float:left;color:#444;line-height: 45px;margin-left: 5.6%;display: block;width: 60%;height: 45px;font-size: 1.2em;}
+.menu ul li span img{float:right;margin-right: 4.8%;height:29%;margin-top:18px;}
+
+.footer{width:100%;float:left;border-top: 1px solid #ccc;margin-top: 5px;position: fixed;bottom: 0;left: 0;}

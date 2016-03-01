@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>0元购详情</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/zeroProduct.css">
+	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src='layer/layer.js'></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(".guige").click(function(){				
+				
+				var index = layer.open({
+					type: 1,
+					title: false,
+					closeBtn: true,
+					shadeClose: false,
+					offset: '25%',
+					content: "<div class='product'><div class='top'><div class='image'><img src='images/product0.png'><p>请选择颜色和尺寸</p></div><h1>￥0.00</h1><p>价格：</p><a class='line'>￥88.00</a><p>邮费：</p><a>22.00元</a></div><div class='mid'><p>选择颜色</p><ul><li><a href='javascript:void(0)'>兼容会老虎</a></li><li><a href='javascript:void(0)'>兼容会老虎</a></li><li><a href='javascript:void(0)'>兼容会老虎</a></li><li><a href='javascript:void(0)'>兼容会老虎</a></li><li><a href='javascript:void(0)'>兼容会老虎</a></li><li><a href='javascript:void(0)'>兼容会老虎</a></li></ul></div><div class='down'><p>选择尺寸</p><ul><li><a href='javascript:void(0)'>M</a></li><li><a href='javascript:void(0)'>L</a></li><li><a href='javascript:void(0)'>XL</a></li><li><a href='javascript:void(0)'>L</a></li><li><a href='javascript:void(0)'>XXL</a></li></ul></div><div class='bottom'><a href='shopcartZ.html'>立即抢购</a><a href='' class='addcart'>加入购物车</a><a href='shopcartZ.html' class='cart'><img src='images/gouwuche@3x.png'></a></div></div>"
+				});
+				$(".product .mid ul li a").click(function () {
+
+					$(this).toggleClass("sel");
+					$(this).parent().siblings($('.product .mid ul li')).find('a').removeClass("sel");
+				})
+				$(".product .down ul li a").click(function () {
+
+					$(this).toggleClass("sel");
+					$(this).parent().siblings($('.product .down ul li')).find('a').removeClass("sel");
+				})
+			});	
+			//查看更多
+			$('.more').click(function () {
+				$('.pingjia').css('display','block');
+			})
+			
+		});
+	
+	</script>
+</head>
+<body>
+	
+	<div id="wrap">
+		
+		<div class="mes">
+			<div class="header"><img src="images/jingpin.png"></div>
+			<a href="zero.html" class="fanhui"><img src="images/fanhui3@3x.png"></a>
+			<a href="" class="fenxiang"><img src="images/fenxiang2@3x.png"></a>
+			<p>纯色甲油胶纯色甲油胶纯色甲油胶纯色甲油胶纯色甲油胶纯色甲油胶纯色甲油胶纯色甲油胶纯色甲油胶纯色甲油胶纯色甲油胶纯色</p>
+			<div class="detail">
+				<h1>￥0.00</h1>
+				<ul>
+					<li><p>价格：<a class="line">￥88.00</a></p><span>已领取：<b>289</b>件</span></li>
+					<li><p>邮费：<a>￥22.00</a></p><span>已领取：<b>68</b>件</span></li>
+				</ul>
+			</div>
+		</div>
+		<div class="hh">
+			<ul>
+				<li><img src="images/zhengpintubiao@3x.png">正品保证</li>
+				<li><img src="images/suishituihuan@3x.png">7天退换</li>
+				<li><img src="images/suishitui@3x.png">随时退</li>
+			</ul>
+		</div>
+		<div class="guige">
+			<p>产品规格</p><a>(尺寸和颜色)</a><span><img src="images/tiao zhan@3x.png"></span>
+		</div>
+		<div class="list">
+			<div class="title">
+				<p>评价(66)</p>
+			</div>
+			<div class="pingjia" style="display:block">
+				<img src="images/gerenzhongxin  tuotu2@3x.png">			
+				<h2>等风来</h2>
+				<span>2015-12-15</span>
+				<p>纯色甲油胶纯色甲油胶纯色甲油胶纯色甲油胶纯色甲油胶纯色甲油胶纯色甲油胶纯色甲油胶纯色甲油胶纯色甲油胶纯色甲油胶纯色</p>
+				<ul>
+					<li><img src="images/reward1.png"></li>
+					<li><img src="images/reward1.png"></li>
+					<li><img src="images/reward1.png"></li>
+					<li><img src="images/reward1.png"></li>
+				</ul>
+			</div>
+			<div class="pingjia">
+				<img src="images/gerenzhongxin  tuotu2@3x.png">			
+				<h2>等风来</h2>
+				<span>2015-12-15</span>
+				<p>纯色甲油胶纯色甲油胶纯色甲油胶纯色甲油胶纯色甲油胶纯色甲油胶纯色甲油胶纯色甲油胶纯色甲油胶纯色甲油胶纯色甲油胶纯色</p>
+				<ul>
+					<li><img src="images/reward1.png"></li>
+					<li><img src="images/reward1.png"></li>
+					<li><img src="images/reward1.png"></li>
+					<li><img src="images/reward1.png"></li>
+				</ul>
+			</div>
+			<div class="pingjia">
+				<img src="images/gerenzhongxin  tuotu2@3x.png">			
+				<h2>等风来</h2>
+				<span>2015-12-15</span>
+				<p>纯色甲油胶纯色甲油胶纯色甲油胶纯色甲油胶纯色甲油胶纯色甲油胶纯色甲油胶纯色甲油胶纯色甲油胶纯色甲油胶纯色甲油胶纯色</p>
+				<ul>
+					<li><img src="images/reward1.png"></li>
+					<li><img src="images/reward1.png"></li>
+					<li><img src="images/reward1.png"></li>
+					<li><img src="images/reward1.png"></li>
+				</ul>
+			</div>
+			<a class="more"><span>查看更多</span><img src="images/gengduo@3x.png"></a>
+		</div>
+		<div class="bottom">
+			<a href="zhiFuQiangDan1.html">立即抢购</a>
+			<a href="" class="addcart">加入购物车</a>
+			<a href="shopCart.html" class="cart"><img src="images/gouwuche@3x.png"></a>
+		</div>
+		<div class="clear"></div>
+	</div>
+</body>
+</html>

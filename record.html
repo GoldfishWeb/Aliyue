@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>中奖记录</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/record.css">
+	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript">
+		$(function (){
+
+			$(".listnum").click(function(){
+				var display=$(this).parent().find('.nr:eq(0)').css('display');
+				if(display=='none'){
+					$(this).find('img')[0].src="images/shangla.png";	
+					// console.log($(this).parent().siblings('.nr'))			
+					$(this).parent().find('.nr:eq(0)').show();
+				}else{
+					$(this).find('img')[0].src="images/xialahuise@3x.png";					
+					$(this).parent().find('.nr:eq(0)').hide();		
+				}
+			})
+			$(".title input").toggle(function () {
+				$(".title input").val('修改');
+				$(".title p").html("身份证信息已保存");
+				$(".title a").hide();
+				$(".mid").hide();
+				$(".bottom").hide()
+			},function () {
+				$(".title input").val('保存');
+				$(".title p").html("中奖者请完善一下信息");
+				$(".title a").show();
+				$(".mid").show();
+				$(".bottom").show()
+			})
+		});
+	</script>
+</head>
+<body>
+	<div id="wrap">
+		<div id="top">
+			<a href="reward.html"><img src="images/fanhui@3x.png" alt="back"></a>
+			<h2>中奖记录</h2>
+		</div>
+		<div class="list">
+			<div class="listnum">
+				<p>(期号为000020)</p><span>揭晓时间:2015-12-18 10:22:33:26</span>
+				<em><img src="images/xialahuise@3x.png"></em>
+			</div>				
+		
+			<div class="nr">
+				<div class="reward">				
+							<img src="images/shaidan.png" alt="">					
+						<div class="m_reward">
+							<h1>中奖啦</h1>
+							<p>幸运号码:100068</p>
+						</div>				
+				</div>
+				<div class="shenFen">
+					<form>
+						<div class="title">
+							<p>中奖者请完善一下信息</p><a>(信息绝对保密)</a>
+							<input value="保存" type="submit" onclick="return false">
+						</div>
+						<div class="mid">
+							<ul>
+								<li><p>身份证姓名</p><input type="text" placeholder="请输入身份证姓名"></li>
+								<li><p>身份证号码</p><input type="text" placeholder="请输入身份证号码"></li>
+							</ul>					
+						</div>
+						<div class="bottom">
+							<h2>添加身份证照片（正反面）</h2>
+							<ul>
+								<li><a href=""><input type="file"></a><p>身份证正面照</p></li>
+								<li><a href=""><input type="file"></a><p>身份证反面照</p></li>
+							</ul>		
+						</div>		
+					</form>
+				</div>
+				<div class="footer">
+					<h3>为了开奖的公平，公正，公开原则</h3>
+					<p>凡中奖者奖品超过总需3000人次以上，需要录制一段视频“获奖感言”小视频，阿里约也是希望把你的开心和快乐分享给大家。</p>
+					<p>视频发至邮箱：aliyueba@163.com</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="list">
+			<div class="listnum">
+				<p>(期号为000020)</p><span>揭晓时间:2015-12-18 10:22:33:26</span>
+				<em><img src="images/shangla.png"></em>
+			</div>				
+		
+			<div class="nr" style="display:block">
+				<div class="reward">				
+							<img src="images/shaidan.png" alt="">					
+						<div class="m_reward">
+							<h1>中奖啦</h1>
+							<p>幸运号码:100068</p>
+						</div>				
+				</div>
+				<div class="shenFen">
+					<form>
+						<div class="title">
+							<p>中奖者请完善一下信息</p><a>(信息绝对保密)</a>
+							<input value="保存" type="submit" onclick="return false">
+						</div>
+						<div class="mid">
+							<ul>
+								<li><p>身份证姓名</p><input type="text" placeholder="请输入身份证姓名"></li>
+								<li><p>身份证号码</p><input type="text" placeholder="请输入身份证号码"></li>
+							</ul>					
+						</div>
+						<div class="bottom">
+							<h2>添加身份证照片（正反面）</h2>
+							<ul>
+								<li><a href=""><input type="file"></a><p>身份证正面照</p></li>
+								<li><a href=""><input type="file"></a><p>身份证反面照</p></li>
+							</ul>		
+						</div>		
+					</form>
+				</div>
+				<div class="footer">
+					<h3>为了开奖的公平，公正，公开原则</h3>
+					<p>凡中奖者奖品超过总需3000人次以上，需要录制一段视频“获奖感言”小视频，阿里约也是希望把你的开心和快乐分享给大家。</p>
+					<p>视频发至邮箱：aliyueba@163.com</p>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div class="clear"></div>
+	</div>
+</body>
+</html>

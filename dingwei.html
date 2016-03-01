@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+	<meta name="format-detection" content="telephone=no">
+	<title>定位</title>
+	<link href="css/reset.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="css/dingwei.css" type="text/css">
+	<link rel="stylesheet" href="css/public.css" type="text/css">
+	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			var city_li = $(".select_city ul li");
+			var hot_li = $(".hot_city ul li");
+			
+			city_li.click(function(){
+				hot_li.siblings().removeClass("city_sel");
+				$(this).siblings().removeClass("city_sel");
+				$(this).addClass("city_sel");
+				readQu($(this));
+			})
+			
+			hot_li.click(function(){
+				city_li.siblings().removeClass("city_sel");
+				$(this).siblings().removeClass("city_sel");
+				$(this).addClass("city_sel");
+				readCity($(this));
+			})
+			
+			function readQu(name){
+				$(".title span").html(name.html());
+				
+			}
+			function readCity(name){
+				$(".citycity").html(name.html());
+				
+			}
+		})
+	</script>
+</head>
+<body>
+	<div id="wrap">
+		<div id="top">
+            <a href='index.html' id="back"><img src="images/fanhui@3x.png"></a>
+            <input type="text" placeholder="请输入城市名" id="city_name" >
+            <span id="sousuo"><img src="images/sousuo@3x (2).png"></span>
+		</div>
+		<div class="gps">
+			<h2>北京</h2><span>GPS定位</span>
+		</div>
+		<div class="select_city">
+			<div class="title">
+				<h2 class="citycity">北京</h2><span>所选城市</span>
+			</div>
+			<ul>
+				<li class="city_sel">全部</li>
+				<li>朝阳区</li>
+				<li>东城区</li>
+				<li>海淀区</li>
+				<li>朝阳区</li>
+				<li>朝阳区</li>
+				<li>朝阳区</li>
+				<li>朝阳区</li>
+				<li>朝阳区</li>
+				<li>朝阳区</li>
+				<li>朝阳区</li>
+				<li>朝阳区</li>
+				<li>朝阳区</li>
+				<li>朝阳区</li>
+				<li>朝阳区</li>
+				<li>朝阳区</li>
+				<li>朝阳区</li>
+			</ul>
+		</div>
+		<div class="hot_city">
+			<div class="title">
+				<h2>热门城市</h2>
+			</div>
+			<ul>
+				<li>北京</li>
+				<li>成都</li>
+				<li>重庆</li>
+				<li>广州</li>
+				<li>哈尔滨</li>
+				<li>朝阳区</li>
+				<li>朝阳区</li>
+				<li>朝阳区</li>
+				<li>朝阳区</li>
+				<li>朝阳区</li>
+				<li>朝阳区</li>
+
+			</ul>
+		</div>
+	</div>
+</body>
+</html>

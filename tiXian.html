@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>申请提现</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/tiXian.css">
+</head>
+<body>
+	<div id="wrap">
+		<div id="top">
+			<a href="mybag.html"><img src="images/fanhui@3x.png" alt="back"></a>
+			<h2>申请提现</h2>		
+	
+		</div>
+		<div class="nav ka clearfix">
+			<ul>
+				<li><a href="javascript:void(0)">支付宝</a></li>
+				<li class="two"><a  href="javascript:void(0)">微信</a></li>
+				<li><a href="javascript:void(0)">银行卡</a></li>
+			</ul>
+		</div>
+		<div class="nr">
+			<div class="zhi content">
+				<b>尊敬的用户您好，为了确保您的财产安全请您认真填写一下内容</b>	
+				<form action="tiJiaoZhi.html">
+					<ul>
+						<li><p>账号</p><input type="text" value='12121222111'></li>
+						<li><p>验证码</p><input type="text" value='' placeholder="请输入验证码"><a href="">获取验证码</a></li>
+					</ul>
+					<div class="money">
+						<ul>
+							<li><p>可用红包<h3>890</h3>元</p></li>
+							<li><p>提现金额</p><input type="text" value='200'><span>(100元以上才可提现)</span></li>
+						</ul>
+					</div>					
+					<input type="submit" value="提交申请" class="btn">
+				</form>
+			</div>
+				<div class="zhi content">
+					<b>尊敬的用户您好，为了确保您的财产安全请您认真填写一下内容</b>	
+					<form>
+						<ul>
+							<li><p>账号</p><input type="text" value='12121222111'></li>
+							<li><p>验证码</p><input type="text" value='' placeholder="请输入验证码"><a href="">获取验证码</a></li>
+						</ul>
+						<div class="money">
+							<ul>
+								<li><p>可用红包<h3>1890</h3>元</p></li>
+								<li><p>提现金额</p><input type="text" value='1200'><span>(100元以上才可提现)</span></li>
+							</ul>
+						</div>					
+						<input type="submit" value="提交申请" class="btn">
+					</form>
+			       
+				</div>
+				<div class="yin content">
+					<form action="tiJiaoYin.html">
+						<ul>
+							<li><p>户名</p><input type="text" value=' 12121222111'></li>
+							<li><p>开户行</p><select>
+												<option value="">北京银行</option>
+												<option value="" selected="selected">中国银行</option>
+												<option value="">中信银行</option>
+												<option value="">人民银行</option>
+												<option value="">中信银行</option>
+												<option value="">人民银行</option>
+												<option value="">中信银行</option>
+												<option value="">人民银行</option>
+												<option value="">中信银行</option>
+												<option value="">人民银行</option>
+											</select>	
+							</li>							
+							<li><p>账号</p><input type="text" value=' 12121222111'></li>
+						</ul>
+						<div class="money">
+							<ul>
+								<li><p>可用红包</p><h3>1890</h3><p>元</p></li>
+								<li><p>提现金额</p><input type="text" value=' 1200'><span>(100元以上才可提现)</span></li>
+							</ul>
+						</div>					
+						<input type="submit" value="提交申请" class="btn">
+					</form>	  
+				</div>     
+			</div>
+			
+		</div>
+		<div class="clear"></div>
+	</div>
+</body>
+<script>
+	tab(document.getElementById("wrap"),3,"click");
+	function tab(obj,index,eventType)
+	{	
+		var kk =obj.getElementsByClassName("ka")[0];
+		var kas = obj.getElementsByClassName("ka")[0].getElementsByTagName("a");
+		// console.log(kas);
+			nrs = obj.getElementsByClassName("content");
+		// console.log(nrs);
+		var selectedObj = kas[index-1];
+		var blockObj = nrs[index-1];
+		kas[index-1].className = "selected";
+		nrs[index-1].style.display="block";
+		for(var i=0;i<kas.length;i++)
+		{
+			kas[i].addEventListener(eventType,tabEvent);
+			
+		}
+		function tabEvent()
+		{
+			selectedObj.className="";
+			// alert(selectedObj);
+			this.className = "selected";
+			selectedObj=this;//kas[1]
+			for(var j=0;j<kas.length;j++)
+			{
+				if(kas[j]==this)
+				{
+					blockObj.style.display="none";
+					nrs[j].style.display="block";
+					blockObj=nrs[j];
+				}
+			}
+		}
+	}
+	</script>
+</html>

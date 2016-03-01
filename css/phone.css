@@ -1,0 +1,46 @@
+
+#wrap{float:left;width:100%;margin:0 auto;height:auto;}
+#top{float:left;width:100%;height:48px;border-bottom: 1px solid #ccc;float:left;background: #fff;}
+#top a {display: block;float: left;height:48px;width:50px;cursor: pointer;margin-left: 4.8%;}
+#top a img{float:left;height:40%;margin-top: 14px;}
+#top h2{float:left;display: inline-block;line-height: 48px;color:#444;font-weight: lighter;
+		margin-left: 26%;font-size: 1.6em;}
+.phone{width:100%;height:auto;float: left;}
+.phone ul {width:100%;float: left;}
+.phone ul li{width:100%;float: left;height: 45px;border-bottom: 1px solid #eee;}
+.phone ul li a,input {line-height: 45px;margin-left: 5%;font-size: 1.2em;}
+.phone ul li input {width:40%;font-size: 1.4em;border:0;height: 45px;font-size: 1.4em;}
+.phone ul li button{border: 0;width:88px;height:30px; border-radius:3px;background: #fb873c;color: #fff;
+					cursor:pointer;font-family: '微软雅黑';}
+
+.tuikuan{width:100%;float:left;background: #fff;height:70px;text-align: center;margin-top: 50px;}
+.tuikuan button{width:305px;height:46px;background: #eb1d66;border: 0;border-radius: 5px;color: #fff;font-size: 1.4em;
+				font-family: '微软雅黑';cursor: pointer;font-size: 1.6em;}
+.clear{clear: both;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,86 @@
+
+#wrap{float:left;width:100%;margin:0 auto;height:auto;background: #f2f2f2;}
+#top{float:left;width:100%;height:48px;float:left;background: #fff;}
+#top a {display: block;float: left;height:48px;width:50px;cursor: pointer;margin-left: 4.8%;}
+#top a img{float:left;height:40%;margin-top: 14px;}
+#top h2{float:left;display: inline-block;line-height: 48px;color:#444;font-weight: lighter;
+		margin-left: 26%;font-size: 1.6em;}
+
+.nav {width:100%;height:42px;}
+.nav ul{width: 100%;height:42px;}
+.nav ul li{width:33.33%;line-height: 42px;height: 42px;text-align: center;float: left;}
+.nav ul li a {float:left;display: block;width: 100%;height: 40px; color: #333;font-size: 1.2em;}
+.nav ul li a:hover{color: #eb1d66;border-bottom: 2px solid #eb1d66;}
+
+.nr {width: 100%;height:auto;background: #fff;float: left;
+	min-width: 320px; }
+.nr .jingPin{width:48%;min-width:155px;max-width:202px;height:211px;margin-top:5px;float: left;margin-left: 1%;}
+.nr .jingPin img{float: left;width: 100%;height:148px; }
+.nr .jingPin h3{float:left;width:180px;overflow: hidden;text-overflow: ellipsis;line-height: 30px;color: #333}
+.nr .jingPin p{float: left;font-size: 1.8em;color: #eb1d66;}
+.nr .jingPin span{line-height: 30px; text-decoration: line-through;color: #ccc;margin-left: 20px;}
+
+.nr .content{display: none;}
+.ka .selected{color: #eb1d66;border-bottom: 2px solid #eb1d66;}
+
+.qiang {
+	width:100%;
+	height:auto;
+	min-width: 320px;
+	
+}
+
+.all{width:100%;height:88px;border-bottom: 1px solid #eee;float: left;}
+.all .image{height:88px;float: left;width:20%;text-align: center;}
+.all .image img{height: 88px;}
+.all .mid{width:80%;height:88px;margin-bottom: 10px;background: #fff;float: left;}
+.all .mid .title{margin-top: 10px;width:60%;}
+.all .mid  p h2{float: left;font-weight: lighter;display: inline-block;}
+.all .mid .jindu{width:60%;margin-left: 5%;border-radius: 3px;background: #eee;float: left;height:5px;display: inline-block;}
+.all .mid a{float: left;}
+.all .mid .jindu .nr{width:10%;background: #fb873c;float: left;height:5px;border-radius: 3px;min-width: 0}
+.all .mid p{margin-left: 5%;font-size: 1.2em;float: left;width:40%;line-height: 23px;color: #666}
+.all .mid span{float: left;color: #666;width:25%;line-height: 23px;}
+.all .mid span b{font-weight: lighter;}
+.all .mid .zhuijia{display: inline-block;width: 70px;height: 30px;color: #eb1d66;text-align: center;
+					border-left: 1px solid #eee;line-height: 30px;float: right;margin-top: 20px; }
+.all .mid .num{float: right;margin-right: 5%;color: #4a90e2;}
+.ago .num{float: right;color: #4a90e2;margin-top: -20px}
+
+.ago{width: 100%;height: auto; border-bottom: 1px solid #eee;float: left;}
+.ago .image1{float: left;width:20%;height:100%;margin-top: 10px;text-align: center;margin-right: 4%;}
+.ago .image1 img{height:60px;margin-left: 5%;margin-right:3%;max-width:100%;}
+.ago .right {width: 72%;height:auto; float:left;margin-bottom: 10px;margin-top: 10px;}
+.ago .right h3{display: inline-block;float: left;}
+.ago .right h2{float: left;width:100%;font-weight: lighter;line-height: 2;font-size: 1.2em;}
+.ago .right h2 a{color: #5899ed;}
+.ago .right p{float:left;width:100%;margin-left: 0;font-size: 1.2em;line-height: 2;color: #333}
+.ago .right .blue{color: #4a90e2}
+.ago .right .pink{color: #eb1d66}
+
+.clear{clear: both;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

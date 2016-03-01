@@ -1,0 +1,47 @@
+
+#wrap{float:left;width:100%;margin:0 auto;height:auto;}
+#top{float:left;width:100%;height:48px;float:left;background: #fff;border-bottom: 1px solid #ccc;}
+#top a {display: block;float: left;height:48px;width:50px;cursor: pointer;margin-left: 4.8%;}
+#top a img{float:left;height:40%;margin-top: 14px;}
+#top h2{display: inline-block;line-height: 48px;color:#444;font-weight: lighter;
+		margin-left: 26%;font-size: 1.6em;}
+
+.mes{width:100%;height:auto;float: left;background: #fff;min-width: 320px;}
+.mes ul{width:100%;height:92px;float: left;}
+.mes ul li {float: left;width:100%;height:45px;line-height: 45px;border-bottom: 1px solid #eee;}
+.mes ul li p{float: left;margin-left: 5%;width:29%;font-size: 1.2em;}
+.mes ul li input{float: left;width: 40%;line-height: 43px;border: 0;height:43px;}
+.mes ul li a{display: block;width:20%;border-left: 1px solid #ccc; float: left;text-align: center;
+			margin-left: 2%;height: 20px;margin-top: 13px;line-height: 20px;color: #5a8ec7;font-size: 1.2em;}
+
+.mes .two {border-top: 10px solid #f2f2f2;}
+.mes  .btn{width: 80%;margin-left: 10%;height:46px;background: #eb1d66;border-radius: 5px;font-size: 1.8em;border: 0;color:#fff;
+			margin-left: 10%;margin-top: 80px;font-family: '微软雅黑';cursor: pointer;}
+.clear{clear: both;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

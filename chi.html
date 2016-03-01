@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>吃喝玩乐</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/qiangBao.css">
+	<script src="js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+ 			$(".qiang_content:odd").css("float",'right');
+ 			$(".qiang_content:eq(0) .jindu p b").html(90+"%");
+			$(".qiang_content:eq(0) .jindu span i").css('width',90+"%");
+			
+			var count=0;
+			
+			$(".jiaru").click(function () {
+				// alert(111)
+				count=parseInt($("#cart span").html());
+				count++;
+				$("#cart span").html(count);
+
+				var flyElm = $(this).parents(".qiang_content").clone().css('opacity','0.7');
+				flyElm.css({
+					'z-index': 9000,
+					'display': 'block',
+					'position': 'absolute',
+					'top': $(this).parents(".qiang_content").offset().top +'px',
+					'left': $(this).parents(".qiang_content").offset().left +'px',
+					'width': $(this).parents(".qiang_content").width() +'px',
+					'height': $(this).parents(".qiang_content").height() +'px'
+				});
+				$('body').append(flyElm);
+				flyElm.animate({
+					top:$('#cart img').offset().top,
+					left:$('#cart img').offset().left,
+					width:20,
+					height:20,
+					opacity:0
+				},'slow');
+
+			})
+			
+		})
+	</script>
+</head>
+<body>
+	<div id="wrap">
+		<div id="top">
+			<a href="index.html"><img src="images/fanhui@3x.png" alt="back"></a>
+			<h2>抢宝商城</h2>		
+			<a href="shopCart.html" id="cart"><img src="images/gouwuche@3x.png">
+				<span>0</span>
+			</a>
+		</div>
+		<div class="nav ka clearfix">
+			<ul>
+				<li><a href="javascript:void(0)">人气</a></li>
+				<li><a href="javascript:void(0)">最新</a></li>
+				<li><a href="javascript:void(0)">进度</a></li>
+			</ul>
+		</div>
+		<div class="nr qiang">
+			<div class="qiang_list content">
+				<a href="rewarddetail.html">
+			        <div class="qiang_content">
+			            <img src="images/shop_1.png">
+			              <nobr><h2>宝马 X1宝马 X1宝马 X1宝马 X1</h2></nobr>
+			            <div class="jindu">
+			              <p>开奖进度<b>30%</b></p>
+			              <button class="jiaru" onclick="return false">加入清单</button>
+			              <span><i></i></span>
+			            </div>
+			        </div> 
+		        </a>	
+				<a href="rewarddetail.html">
+			        <div class="qiang_content">
+			            <img src="images/shop_1.png">
+			             <nobr><h2>宝马 X1宝马 X1宝马 X1宝马 X1</h2></nobr>
+			            <div class="jindu">
+			              <p>开奖进度<b>30%</b></p>
+			              <button class="jiaru" onclick="return false">加入清单</button>
+			              <span><i></i></span>
+			            </div>
+			        </div> 
+		        </a>
+		        <a href="rewarddetail.html">
+			        <div class="qiang_content">
+			            <img src="images/shop_1.png">
+			             <nobr><h2>宝马 X1宝马 X1宝马 X1宝马 X1</h2></nobr>
+			            <div class="jindu">
+			              <p>开奖进度<b>30%</b></p>
+			              <button class="jiaru" onclick="return false">加入清单</button>
+			              <span><i></i></span>
+			            </div>
+			        </div> 
+		        </a>
+		       <a href="rewarddetail.html">
+			        <div class="qiang_content">
+			            <img src="images/shop_3.png">
+			              <nobr><h2>宝马 X1宝马 X1宝马 X1宝马 X1</h2></nobr>
+			            <div class="jindu">
+			              <p>开奖进度<b>30%</b></p>
+			              <button class="jiaru" onclick="return false">加入清单</button>
+			              <span><i></i></span>
+			            </div>
+			        </div> 
+		        </a>	
+				<a href="rewarddetail.html">
+			        <div class="qiang_content">
+			            <img src="images/shop_3.png">
+			             <nobr><h2>宝马 X1宝马 X1宝马 X1宝马 X1</h2></nobr>
+			            <div class="jindu">
+			              <p>开奖进度<b>30%</b></p>
+			              <button class="jiaru" onclick="return false">加入清单</button>
+			              <span><i></i></span>
+			            </div>
+			        </div> 
+		        </a>
+		        <a href="rewarddetail.html">
+			        <div class="qiang_content">
+			            <img src="images/shop_1.png">
+			             <nobr><h2>宝马 X1宝马 X1宝马 X1宝马 X1</h2></nobr>
+			            <div class="jindu">
+			              <p>开奖进度<b>30%</b></p>
+			              <button class="jiaru" onclick="return false">加入清单</button>
+			              <span><i></i></span>
+			            </div>
+			        </div> 
+		        </a>
+		        <a href="rewarddetail.html">
+			        <div class="qiang_content">
+			            <img src="images/shop_1.png">
+			              <nobr><h2>宝马 X1宝马 X1宝马 X1宝马 X1</h2></nobr>
+			            <div class="jindu">
+			              <p>开奖进度<b>30%</b></p>
+			              <button class="jiaru" onclick="return false">加入清单</button>
+			              <span><i></i></span>
+			            </div>
+			        </div> 
+		        </a>	
+				<a href="rewarddetail.html">
+			        <div class="qiang_content">
+			            <img src="images/shop_1.png">
+			             <nobr><h2>宝马 X1宝马 X1宝马 X1宝马 X1</h2></nobr>
+			            <div class="jindu">
+			              <p>开奖进度<b>30%</b></p>
+			              <button class="jiaru" onclick="return false">加入清单</button>
+			              <span><i></i></span>
+			            </div>
+			        </div> 
+		        </a>
+		       
+			</div>
+			<div class="qiang_list content">
+				<a href="rewarddetail.html">
+			        <div class="qiang_content">
+			            <img src="images/shop_1.png">
+			              <nobr><h2>宝马 X1宝马 X1宝马 X1宝马 X1</h2></nobr>
+			            <div class="jindu">
+			              <p>开奖进度<b>30%</b></p>
+			              <button class="jiaru" onclick="return false">加入清单</button>
+			              <span><i></i></span>
+			            </div>
+			        </div> 
+		        </a>	
+				<a href="rewarddetail.html">
+			        <div class="qiang_content">
+			            <img src="images/shop_1.png">
+			             <nobr><h2>宝马 X1宝马 X1宝马 X1宝马 X1</h2></nobr>
+			            <div class="jindu">
+			              <p>开奖进度<b>30%</b></p>
+			              <button class="jiaru" onclick="return false">加入清单</button>
+			              <span><i></i></span>
+			            </div>
+			        </div> 
+		        </a>
+		        <a href="rewarddetail.html">
+			        <div class="qiang_content">
+			            <img src="images/shop_1.png">
+			             <nobr><h2>宝马 X1宝马 X1宝马 X1宝马 X1</h2></nobr>
+			            <div class="jindu">
+			              <p>开奖进度<b>30%</b></p>
+			              <button class="jiaru" onclick="return false">加入清单</button>
+			              <span><i></i></span>
+			            </div>
+			        </div> 
+		        </a>
+		       <a href="rewarddetail.html">
+			        <div class="qiang_content">
+			            <img src="images/shop_1.png">
+			              <nobr><h2>宝马 X1宝马 X1宝马 X1宝马 X1</h2></nobr>
+			            <div class="jindu">
+			              <p>开奖进度<b>30%</b></p>
+			              <button class="jiaru" onclick="return false">加入清单</button>
+			              <span><i></i></span>
+			            </div>
+			        </div> 
+		        </a>	
+				<a href="rewarddetail.html">
+			        <div class="qiang_content">
+			            <img src="images/shop_1.png">
+			             <nobr><h2>宝马 X1宝马 X1宝马 X1宝马 X1</h2></nobr>
+			            <div class="jindu">
+			              <p>开奖进度<b>30%</b></p>
+			              <button class="jiaru" onclick="return false">加入清单</button>
+			              <span><i></i></span>
+			            </div>
+			        </div> 
+		        </a>
+		        <a href="rewarddetail.html">
+			        <div class="qiang_content">
+			            <img src="images/shop_1.png">
+			             <nobr><h2>宝马 X1宝马 X1宝马 X1宝马 X1</h2></nobr>
+			            <div class="jindu">
+			              <p>开奖进度<b>30%</b></p>
+			              <button class="jiaru" onclick="return false">加入清单</button>
+			              <span><i></i></span>
+			            </div>
+			        </div> 
+		        </a>
+		        <a href="rewarddetail.html">
+			        <div class="qiang_content">
+			            <img src="images/shop_1.png">
+			              <nobr><h2>宝马 X1宝马 X1宝马 X1宝马 X1</h2></nobr>
+			            <div class="jindu">
+			              <p>开奖进度<b>30%</b></p>
+			              <button class="jiaru" onclick="return false">加入清单</button>
+			              <span><i></i></span>
+			            </div>
+			        </div> 
+		        </a>	
+				<a href="rewarddetail.html">
+			        <div class="qiang_content">
+			            <img src="images/shop_1.png">
+			             <nobr><h2>宝马 X1宝马 X1宝马 X1宝马 X1</h2></nobr>
+			            <div class="jindu">
+			              <p>开奖进度<b>30%</b></p>
+			              <button class="jiaru" onclick="return false">加入清单</button>
+			              <span><i></i></span>
+			            </div>
+			        </div> 
+		        </a>
+		       
+			</div>
+			<div class="qiang_list content">
+				<a href="rewarddetail.html">
+			        <div class="qiang_content">
+			            <img src="images/shop_2.png">
+			              <nobr><h2>宝马 X1宝马 X1宝马 X1宝马 X1</h2></nobr>
+			            <div class="jindu">
+			              <p>开奖进度<b>30%</b></p>
+			              <button class="jiaru" onclick="return false">加入清单</button>
+			              <span><i></i></span>
+			            </div>
+			        </div> 
+		        </a>	
+				<a href="rewarddetail.html">
+			        <div class="qiang_content">
+			            <img src="images/shop_2.png">
+			             <nobr><h2>宝马 X1宝马 X1宝马 X1宝马 X1</h2></nobr>
+			            <div class="jindu">
+			              <p>开奖进度<b>30%</b></p>
+			              <button class="jiaru" onclick="return false">加入清单</button>
+			              <span><i></i></span>
+			            </div>
+			        </div> 
+		        </a>
+		        <a href="rewarddetail.html">
+			        <div class="qiang_content">
+			            <img src="images/shop_1.png">
+			             <nobr><h2>宝马 X1宝马 X1宝马 X1宝马 X1</h2></nobr>
+			            <div class="jindu">
+			              <p>开奖进度<b>30%</b></p>
+			              <button class="jiaru" onclick="return false">加入清单</button>
+			              <span><i></i></span>
+			            </div>
+			        </div> 
+		        </a>
+		       <a href="rewarddetail.html">
+			        <div class="qiang_content">
+			            <img src="images/shop_1.png">
+			              <nobr><h2>宝马 X1宝马 X1宝马 X1宝马 X1</h2></nobr>
+			            <div class="jindu">
+			              <p>开奖进度<b>30%</b></p>
+			              <button class="jiaru" onclick="return false">加入清单</button>
+			              <span><i></i></span>
+			            </div>
+			        </div> 
+		        </a>	
+				<a href="rewarddetail.html">
+			        <div class="qiang_content">
+			            <img src="images/shop_1.png">
+			             <nobr><h2>宝马 X1宝马 X1宝马 X1宝马 X1</h2></nobr>
+			            <div class="jindu">
+			              <p>开奖进度<b>30%</b></p>
+			              <button class="jiaru" onclick="return false">加入清单</button>
+			              <span><i></i></span>
+			            </div>
+			        </div> 
+		        </a>
+		        <a href="rewarddetail.html">
+			        <div class="qiang_content">
+			            <img src="images/shop_1.png">
+			             <nobr><h2>宝马 X1宝马 X1宝马 X1宝马 X1</h2></nobr>
+			            <div class="jindu">
+			              <p>开奖进度<b>30%</b></p>
+			              <button class="jiaru" onclick="return false">加入清单</button>
+			              <span><i></i></span>
+			            </div>
+			        </div> 
+		        </a>
+		        <a href="rewarddetail.html">
+			        <div class="qiang_content">
+			            <img src="images/shop_1.png">
+			              <nobr><h2>宝马 X1宝马 X1宝马 X1宝马 X1</h2></nobr>
+			            <div class="jindu">
+			              <p>开奖进度<b>30%</b></p>
+			              <button class="jiaru" onclick="return false">加入清单</button>
+			              <span><i></i></span>
+			            </div>
+			        </div> 
+		        </a>	
+				<a href="rewarddetail.html">
+			        <div class="qiang_content">
+			            <img src="images/shop_1.png">
+			             <nobr><h2>宝马 X1宝马 X1宝马 X1宝马 X1</h2></nobr>
+			            <div class="jindu">
+			              <p>开奖进度<b>30%</b></p>
+			              <button class="jiaru" onclick="return false">加入清单</button>
+			              <span><i></i></span>
+			            </div>
+			        </div> 
+		        </a>
+		       
+			</div>
+		</div>
+		<div class="clear"></div>
+	</div>
+</body>
+<script>
+	tab(document.getElementById("wrap"),1,"click");
+	function tab(obj,index,eventType)
+	{	
+		var kk =obj.getElementsByClassName("ka")[0];
+		var kas = obj.getElementsByClassName("ka")[0].getElementsByTagName("a");
+		// console.log(kas);
+			nrs = obj.getElementsByClassName("content");
+		// console.log(nrs);
+		var selectedObj = kas[index-1];
+		var blockObj = nrs[index-1];
+		kas[index-1].className = "selected";
+		nrs[index-1].style.display="block";
+		for(var i=0;i<kas.length;i++)
+		{
+			kas[i].addEventListener(eventType,tabEvent);
+			
+		}
+		function tabEvent()
+		{
+			selectedObj.className="";
+			// alert(selectedObj);
+			this.className = "selected";
+			selectedObj=this;//kas[1]
+			for(var j=0;j<kas.length;j++)
+			{
+				if(kas[j]==this)
+				{
+					blockObj.style.display="none";
+					nrs[j].style.display="block";
+					blockObj=nrs[j];
+				}
+			}
+		}
+	}
+	</script>
+</html>

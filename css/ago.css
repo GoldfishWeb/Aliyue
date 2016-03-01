@@ -1,0 +1,49 @@
+
+#wrap{float:left;width:100%;margin:0 auto;height:auto;background: #f2f2f2;}
+#top{float:left;width:100%;height:48px;border-bottom: 1px solid #ccc;float:left;background: #fff;}
+#top a {display: block;float: left;height:48px;width:50px;cursor: pointer;margin-left: 4.8%;}
+#top a img{float:left;height:40%;margin-top: 14px;}
+#top h2{display: inline-block;line-height: 48px;color:#444;font-weight: lighter;
+		margin-left: 26%;font-size: 1.6em;}
+
+.list{float:left;width:100%;height:176px;background: #fff;margin-bottom: 10px;min-width: 320px;}
+.listnum{border-bottom: 1px solid #eee;height:40px;}
+.list p{float:left;display: inline-block;color: #333;margin-left: 3%;line-height: 40px;width: 30%}
+.list span{float:left;line-height: 40px;color: #333;margin-left: 1%;}
+.list .listnum img {float: right;margin-right: 1%;height:16px;margin-top: 12px}
+.list .ago{width: 100%;height: 135px; }
+.list .ago img{height:47px;margin-top: 7px;margin-left: 5%;margin-right:3%;float: left;}
+.list .ago .right {width: 70%;height:135px; float:left;}
+.list .ago .right h2{float: left;margin-top: 10px;width:40%;font-weight: lighter;line-height: 2;font-size: 1.2em;}
+.list .ago .right h2 a{color: #5899ed;}
+.list .ago .right p{float:left;width:100%;margin-left: 0;font-size: 1.2em;line-height: 2;color: #333}
+.list .ago .right .blue{color: #4a90e2}
+.list .ago .right .pink{color: #eb1d66}
+.clear{clear:both;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

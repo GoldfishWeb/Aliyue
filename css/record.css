@@ -1,0 +1,74 @@
+
+#wrap{float:left;width:100%;margin:0 auto;height:auto;background: #f2f2f2;}
+#top{float:left;width:100%;height:48px;border-bottom: 1px solid #ccc;float:left;background: #fff;}
+#top a {display: block;float: left;height:48px;width:50px;cursor: pointer;margin-left: 4.8%;}
+#top a img{float:left;height:40%;margin-top: 14px;}
+#top h2{float:left;display: inline-block;line-height: 48px;color:#444;font-weight: lighter;
+		margin-left: 26%;font-size: 1.6em;}
+
+.list{float:left;width:100%;height:auto;}
+.listnum{border-bottom: 1px solid #eee;height:40px;cursor: pointer;background: #fff;}
+.list .listnum p{display: inline-block;line-height: 40px;color: #333;margin-left: 2%;font-size: 1.2em;float: left;}
+.list .listnum span{float:left;line-height: 40px;color: #333;margin-left: 1%;font-size: 1.2em;}
+.list .listnum em {float: right;margin-right: 2%;display: block;height:40px;}
+.list .listnum em img{height:18px;max-width: 100%;margin-top: 8px;}
+.reward{float:left;width:100%;height:208px;text-align: center;position: relative;background: #fff;}
+.reward .m_reward{width:100%;text-align: center;position: absolute;
+						left: 0;top: 80px;background: rgba(255,0,0,.1);} 
+.reward .m_reward img{height:208px;}
+.reward .m_reward h1{font-size: 2.6em;color: #eb1d66;font-weight: lighter;}
+.reward .m_reward p{font-size: 2em;color: #eb1d66;text-align: center;}
+
+.shenFen {width:100%;height:auto;border-bottom: 1px solid #eee;float: left;background: #FFF;}
+.shenFen form{float: left;width:100%;height:auto;}
+.shenFen .title{width:100%;height:43px;border-top: 1px solid #ccc;border-bottom: 1px solid #ccc;background: #fcfbfb;
+				float: left;line-height: 43px;}
+.shenFen .title p{float: left;margin-left: 5%;color: #333;font-size: 1.4em;}
+.shenFen .title a{float: left;color: #666;}
+.shenFen .title input{float: right;width: 80px;height:43px;background: transparent;border:0;color: #eb1d66;
+					font-size: 1.4em;font-family: '微软雅黑';}
+.shenFen .mid{width:100%;height:auto;}
+.shenFen .mid ul{width:100%;height:auto;float: left;margin-top: 10px;margin-bottom: 5px;}
+.shenFen .mid ul li{width: 100%;height:40px;float: left;line-height: 40px;}
+.shenFen .mid ul li p{float: left;margin-left: 5%;}
+.shenFen .mid ul li input{width:60%;height:38px;line-height: 38px;margin-left: 1%;border: 0;}
+.shenFen .bottom{float: left;width: 100%;height:auto;}
+.shenFen .bottom h2{margin-left: 5%;font-weight: lighter;}
+.shenFen .bottom ul {width: 90%;height:auto;margin-left: 5%;margin-top: 8px;}
+.shenFen .bottom ul li{width: 49%;height:130px;float: left;text-align: center;}
+.shenFen .bottom ul li a{display: inline-block;width:160px;height:100px;background: url(../images/tupiantianjia2@1x.png);
+							text-align: center;max-width: 100%;}
+.shenFen .bottom ul li a input{width:100%;height:100%;text-indent: -99999px;color: transparent;;}
+.shenFen .bottom ul li p{margin-top: 5px;}
+
+.footer{width:100%;height:auto;float: left;background: #fff;;}
+.footer h3{text-align: center;line-height: 30px;}
+.footer p{color: #666;width:90%;margin-left: 5%;text-align: left;margin-bottom: 10px}
+.clear{clear:both;}
+
+.nr{display: none;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

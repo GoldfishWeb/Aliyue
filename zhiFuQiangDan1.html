@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>支付抢单</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/zhiFuQiangDan1.css">
+	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			var monney_li = $(".money ul li");
+			monney_li.click(function(){
+				$(this).siblings().removeClass("sel");
+				$(this).addClass("sel")
+			})
+			
+			$(".way ul li").click(function(){
+				
+				var imgClass = $(this).find(".radio img").attr("class");
+				$(this).siblings().find(".radio img").addClass("img_hide")
+				imgClass == "img_hide"? $(this).find(".radio img").removeClass("img_hide") :　$(this).find(".radio img").addClass("img_hide");
+			});
+			$(".mon_li").toggle(function() {
+				$(this).find('img')[0].src="images/shangla.png";				
+				$(this).next('.nr:eq(0)').show();
+			},function  () {
+				$(this).find('img')[0].src="images/xialahuise@3x.png";					
+				$(this).next('.nr:eq(0)').hide();		
+			})
+
+			//number
+			var add=document.getElementsByClassName('add');
+			// var b=parseInt(document.getElementsByClassName('b').innerText);
+			var jian=document.getElementsByClassName('jian');
+			for(var i=0;i<add.length;i++)
+			{
+				add[i].addEventListener("click",addNum);
+				jian[i].addEventListener("click",jianNum);
+				
+			}
+			function addNum() {
+				// alert(b)
+				var b=parseInt(this.parentNode.getElementsByClassName('b')[0].innerText);
+				b++;
+				this.parentNode.getElementsByClassName('b')[0].innerText=b;
+			}
+			function  jianNum() {
+				// alert(111)
+				var b=parseInt(this.parentNode.getElementsByClassName('b')[0].innerText);
+				if(b>0){
+					
+					b--;
+					this.parentNode.getElementsByClassName('b')[0].innerText=b;
+				}
+				
+			}
+			$(".hongbao").toggle(function  () {
+				$(this).find('img')[0].src="images/hongbaoxuanzhong@3x.png";
+			},
+			function  () {
+				$(this).find('img')[0].src="images/xiaohongbao@3x.png";
+			})
+			$(".jinbi").toggle(function  () {
+				$(this).find('img')[0].src="images/jinbi xuanzhonglan@3x.png";
+			},
+			function  () {
+				$(this).find('img')[0].src="images/jinbi@3x.png";
+			})
+			
+		})
+	</script>
+</head>
+<body>
+	<div id="wrap">
+		<div id="top">
+			<a href="shopCart.html"><img src="images/fanhui@3x.png" alt="back"></a>
+			<h2>支付抢单</h2>
+		</div>
+		<div class="address_list">
+			<h2>确认收货地址</h2>
+			<div class="address">
+				<ul>
+					<li><p>收货人：</p><span>小明</span><a class="deleAdress"><img src="images/shanchu2@3x.png"></a><a href="shouAddressAdd.html"><img src="images/qiehuan@3x.png"></a></li>
+					<li><p>联系方式：</p><span>12821281281</span></li>
+					<li><p>详细地址：</p><span>北京市，昌平区，天通苑本3区10号楼二层</span></li>
+				</ul>
+			</div>
+		</div>
+		<div class="list1">
+			<h2>订单详情</h2>
+			<div class="num">
+				<h2><nobr>拉菲</nobr></h2>
+				<div class="right">
+					<span class="jian">-</span><b class="b">1</b><span class="add">+</span>
+				</div>
+			</div>
+			<div class="num">
+				<h2><nobr>拉菲</nobr></h2>
+				<div class="right">
+					<span class="jian">-</span><b class="b">1</b><span class="add">+</span>
+				</div>
+			</div>
+			<div class="num">
+				<h2><nobr>拉菲</nobr></h2>
+				<div class="right">
+					<span class="jian">-</span><b class="b">1</b><span class="add">+</span>
+				</div>
+			</div>
+			<div class="zero">			
+				<div class="product">
+					<div class="list_msg">
+						<h3><nobr>甲油胶纯色甲油胶纯色甲油胶纯色甲油胶纯色</nobr></h3>
+						<p>￥0.00</p>
+						<ul>
+							<li>价格:<a class="aa">￥88.00</a></li>
+							<li>快递:<a>22.00元</a></li>
+							<li>尺寸:<a>XL</a></li>
+							<li>颜色:<a>咖啡色</a></li>
+						</ul>
+						<div class="bottom">
+							<h3>抢购数量</h3>
+							<div class="right">
+								<span class="jian">-</span><b class="b">1</b><span class="add">+</span>
+							</div>
+						</div>
+					</div>				
+				</div>
+			</div>
+		</div>	
+
+			
+		
+		<div class="money">
+			<h2><p>应付金额</p><span>22.00元</span></h2>
+			<ul>
+				<li class="mon_li"><p>红包支付</p><span>(余688.00元)</span><em><img src="images/xialahuise@3x.png"></em></li>
+				<div class="nr">
+					<ul>
+						<li><a class="hongbao" href="javascript:void(0)"><img src="images/xiaohongbao@3x.png"><p>22.00元</p></a></li>
+						<li><a href="javascript:void(0)"><img src="images/xiaohongbao@3x.png"><p>剩余688.00元</p></a></li>
+					</ul>
+				</div>
+				<li class="mon_li"><p>金币支付</p><span>(余688.00元)</span><em><img src="images/xialahuise@3x.png"></em></li>
+				<div class="nr">
+					<ul>
+						<li><a class="jinbi" href="javascript:void(0)"><img src="images/jinbi@3x.png"><p>22.00金币</p></a></li>
+						<li><a href="javascript:void(0)"><img src="images/qian@3x.png"><p>剩余688金币</p></a></li>
+					</ul>
+				</div>				
+			</ul>
+		</div>
+		<div class="way">
+			<h2><p>其他方式支付</p></h2>
+			<ul>
+				<li><img src="images/iconfont-weixin-3@3x.png"><a href="">微信支付</a>
+					<div class="mes_choose"><div class="radio"><img class="" src="images/xuanzhong@3x.png"/></div></div>
+				</li>
+				<li><img src="images/iconfont-zhifubao@3x.png"><a href="">支付宝支付</a>
+					<div class="mes_choose"><div class="radio"><img class="img_hide" src="images/xuanzhong@3x.png"/></div></div>
+				</li>
+			</ul>
+		</div>
+		<div class="tuikuan">
+			<button>确认提交</button>			
+		</div>
+		<div class="clear"></div>
+	</div>
+</body>
+</html>

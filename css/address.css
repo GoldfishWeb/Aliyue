@@ -1,0 +1,74 @@
+
+#wrap{width:100%;margin:0 auto;height:auto;background: #f2f2f2;}
+#top{width:100%;height:48px;background: #fff;}
+#top span {display: block;float: left;height:48px;width:50px;cursor: pointer;margin-left: 4.8%;}
+#top span img{float:left;height:40%;margin-top: 14px;}
+#top h2{display: inline-block;line-height: 48px;color:#444;font-weight: lighter;
+		margin-left: 26%;font-size: 1.6em;}
+#top a{float:right;line-height: 48px;margin-right:5%;color: #333;display: block;width: 50px;height: 48px;text-align: center;}		
+
+
+.select_city{float:left;width:100%;}
+.hot_city .title{float:left;height:40px;width:100%;margin-top: 10px;background: #fff;}
+.hot_city .title h2{color:#333;display: inline-block;margin-left: 2.6%;line-height: 40px;}
+.hot_city .title span{font-size: 1.2em;color: #666;margin-left: 2%;line-height: 40px;}
+.hot_city ul{float:left;width:100%;height:auto;text-align: center;margin-left: 2%;}
+.hot_city ul li{float:left;width:107px;height:41px;border-radius: 5px;background: #fff;
+					margin-left: 10px; text-align: center;line-height: 41px;margin-top: 8px;cursor: pointer;}
+.hot_city ul li a{color: #666;font-size: 1.2em;}
+.hot_city ul li img{height:25px;margin-top: 8px;}
+.hot_city ul li:hover {background: #eb1d66;}
+.hot_city ul li:hover a{color: #fff}
+
+.select_city{float:left;width:100%;margin-bottom: 10px;}
+.select_city .title{float:left;height:40px;width:100%;background: #fff;margin-top: 10px;}
+.select_city .title h2{float:left;color:#333;display: inline-block;margin-left: 2.6%;line-height: 40px;}
+.select_city ul{float:left;width:100%;height:auto;text-align: center;margin-left: 2%;}
+.select_city ul li{float:left;width:107px;height:41px;border-radius: 5px;background: #fff;
+					margin-left: 10px; text-align: center;line-height: 41px;margin-top: 8px;font-size: 1.2em;}
+.select_city ul li a:hover {background: #eb1d66;}
+.select_city ul li a:hover {color: #fff}
+.select_city ul li a{color: #666;display: block;width:107px;height:41px;border-radius: 5px;}
+.select_city ul li img{height:25px;margin-top: 8px;}
+.select_city .city_sel{background: #eb1d66; }
+.select_city .city_sel a{color: #fff;}
+
+/*.sel_show{position:absolute;top:20px;left:20px;}*/
+.sel_show {
+	background-color: #FFFFFF;
+	float: left;
+	width: 360px;
+	overflow: hidden;
+}
+.sel_show div{
+	background-color: #fff;
+}
+.sel_show div h1 {
+	font-size: 1.4em;
+	color: #666666;
+	line-height: 50px;	
+	margin-left: 10px;
+	float: left;
+	display: inline-block;
+}
+.sel_show .title a{
+	float: right;
+	margin-right: 10px;
+	line-height: 50px;
+	color: #666;
+	font-size: 1.2em;
+}
+.sel_show ul{
+	width:100%;
+	height: auto;
+	background: #f2f2f2;
+	float: left;
+	padding-bottom: 10px;
+}
+.sel_show ul li{float: left; width:107px;height:41px;background: #fff;text-align: center;
+				margin-left: 10px;margin-top: 8px;line-height: 41px; }
+.sel_show ul li a{font-size: 1.2em;text-align: center!important;line-height: 41px;color: #666;width:107px;height:41px;display: block;}	
+.sel_show ul li a:hover{background: #eb1d66;color: #fff;}
+
+.clear{clear: both;}
+

@@ -1,0 +1,53 @@
+
+#wrap{float:left;width:100%;margin:0 auto;height:auto;background: #f2f2f2;}
+#top{float:left;width:100%;height:48px;float:left;background: #fff;border-bottom: 1px solid #ccc;}
+#top a {display: block;float: left;height:48px;width:50px;cursor: pointer;margin-left: 4.8%;}
+#top a img{float:left;height:40%;margin-top: 14px;}
+#top h2{display: inline-block;line-height: 48px;color:#444;font-weight: lighter;
+		margin-left: 26%;font-size: 1.6em;}
+
+.pp{width:100%;height:143px;float: left;background: #fff;text-align: center;}
+.pp p{text-align: center;margin-top:10px;line-height: 1;}
+.pp a{display: inline-block;width:120px;height:30px;background: #ccc;color: #fff;
+		text-align: center;line-height: 30px;border-radius: 5px;margin-top: 40px;}
+.pp .goon{background: #eb1d66;margin-right: 3%;}
+
+.mes{width:100%;height:auto;margin-top:10px;float: left;background: #fff;}
+.mes p{font-size: 1.4em;margin-left: 5%;line-height: 36px;}
+.mes ul{width:100%;height:auto;border-top: 1px solid #eee;}
+.mes ul li{width:90%;background: #f2f2f2;margin-left: 5%;height:46px;border-radius: 5px;margin-top: 10px;}
+.mes ul li h3{float: left;font-size: 1.4em;color: #5899ed;line-height: 1;margin-left: 8px;margin-top: 5px;font-weight: lighter;}
+.mes ul li h2{font-size: 1.4em;color: #333;line-height: 1;margin-top: 5px;float: left;font-weight: lighter;}
+.mes ul li span{float: right;margin-right: 2%;margin-top: 5px;}
+.mes ul li span a{color: #eb1d66;}
+.mes ul li p{width:100%;float: left;margin-left: 8px;line-height: 1.3;font-size: 1.4em;}
+.mes ul li p b{font-weight: lighter;}
+.mes .tip{color: #aaa;margin-top: 20px;}
+.clear{clear: both;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

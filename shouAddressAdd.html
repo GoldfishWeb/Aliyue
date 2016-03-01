@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>收货地址</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/shouAddressAdd.css">
+	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="layer/layer.js"></script>
+	
+	<script type="text/javascript">
+	$(document).ready(function(){
+		init();
+		
+		function init(){
+			$("#top span").click(addAddress);
+			$(".address_list").click(selectAddress);
+			$(".deleAdress").click(deleAddress);
+		}
+					
+		function addAddress(){//增加地址				
+			// $(".sel_show .title h1").innerHtml=$(this).html();
+			// alert(11)
+			var index = layer.open({
+				type: 1,
+				title: false,
+				closeBtn: true,
+				shadeClose: false,
+				offset: '25%',
+				content: "<div class='mes'><form><ul><li><a>收货人</a><input type='text' placeholder='请输入姓名'></li><li><a>联系方式</a><input type='text' placeholder='请输入联系方式'></li><li><a>所在城市</a><input type='button' value='请选择城市'><span><img src='images/iconfont-i.png'></span></li><li><a>详细地址</a><input type='text' placeholder='请输入详细地址'></li></ul><input type='submit' value='确认' class='btn'></form></div>"
+			});
+		}
+		
+		function selectAddress(){
+			var index = $(".address_list").index($(this));
+			$(this).siblings().find(".choose img").hide();
+			$(this).find(".choose img").show();
+			console.log(index);
+		}	
+		
+		function deleAddress(e){
+			e.stopPropagation();
+			alert("怎么删除");
+		}
+			
+		});
+	</script>
+</head>
+<body>
+	<div id="wrap">
+		<div id="top">
+			<a href=""><img src="images/fanhui@3x.png" alt="back"></a>
+			<h2>收货地址</h2>		
+			<span><img src="images/tianjia@3x.png"></span>
+		</div>
+		<div class="list">
+			<div class="address_list">
+				<div class="address">
+					<ul>
+						<li><p>收货人：</p><span>小明</span><a class="deleAdress"><img src="images/shanchu2@3x.png"></a><a href="shouAdress.html"><img src="images/xiugai@3x.png"></a></li>
+						<li><p>联系方式：</p><span>12821281281</span></li>
+						<li><p>详细地址：</p><span>北京市，昌平区，天通苑本3区10号楼二层</span></li>
+					</ul>
+				</div>
+				<div class="choose"><img src="images/xuanzhong@3x.png"></div>
+			</div>
+			<div class="address_list">
+				<div class="address">
+					<ul>
+						<li><p>收货人：</p><span>小明</span><a class="deleAdress"><img src="images/shanchu2@3x.png"></a><a href="shouAdress.html"><img src="images/xiugai@3x.png"></a></li>
+						<li><p>联系方式：</p><span>12821281281</span></li>
+						<li><p>详细地址：</p><span>北京市，昌平区，天通苑本3区10号楼二层</span></li>
+					</ul>
+				</div>
+				<div class="choose"><img src="images/xuanzhong@3x.png"></div>
+			</div>
+		</div>
+		<div class="clear"></div>
+	</div>
+</body>
+</html>

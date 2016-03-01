@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>我的购物车</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/public.css">
+	<link rel="stylesheet" href="css/shopcartQ.css">
+	<script type="text/javascript">
+		window.onload=function () {
+			var add=document.getElementsByClassName('add');
+			// var b=parseInt(document.getElementsByClassName('b').innerText);
+			var jian=document.getElementsByClassName('jian');
+			for(var i=0;i<add.length;i++)
+			{
+				add[i].addEventListener("click",addNum);
+				jian[i].addEventListener("click",jianNum);
+				
+			}
+			function addNum() {
+				// alert(b)
+				var b=parseInt(this.parentNode.getElementsByClassName('b')[0].innerText);
+				b++;
+				this.parentNode.getElementsByClassName('b')[0].innerText=b;
+			}
+			function  jianNum() {
+				// alert(111)
+				var b=parseInt(this.parentNode.getElementsByClassName('b')[0].innerText);
+				if(b>0){
+					
+					b--;
+					this.parentNode.getElementsByClassName('b')[0].innerText=b;
+				}
+				
+			}
+		}
+	</script>
+</head>
+<body>
+	<div id="wrap">
+		<div id="top">
+			<a href=""><img src="images/fanhui@3x.png" alt="back"></a>
+			<h2>我的购物车</h2>
+		</div>
+		
+		<div class="list">	
+			<a href="">	
+			<div class="product">
+				<div class="img">
+					<img src="images/rewarddetail.png" alt="">
+				</div>
+				<div class="list_msg">
+					<h3><nobr>拉菲</nobr></h3>
+					<img src="images/shanchu2@3x.png" alt="">
+					<p>总需:<a>28888</a>/剩余：<a>999</a></p>
+					<div class="num">
+					<span class="jian">-</span><b class="b">1</b><span class="add">+</span>
+					</div>
+				</div>				
+			</div>
+			</a>
+			<a href="">	
+			<div class="product">
+				<div class="img">
+					<img src="images/rewarddetail.png" alt="">
+				</div>
+				<div class="list_msg">
+					<h3><nobr>拉菲</nobr></h3>
+					<img src="images/shanchu2@3x.png" alt="">
+					<p>总需:<a>28888</a>/剩余：<a>999</a></p>
+					<div class="num">
+					<span class="jian">-</span><b class="b">1</b><span class="add">+</span>
+					</div>
+				</div>				
+			</div>
+			</a>
+			<a href="">	
+			<div class="product">
+				<div class="img">
+					<img src="images/rewarddetail.png" alt="">
+				</div>
+				<div class="list_msg">
+					<h3><nobr>拉菲</nobr></h3>
+					<img src="images/shanchu2@3x.png" alt="">
+					<p>总需:<a>28888</a>/剩余：<a>999</a></p>
+					<div class="num">
+					<span class="jian">-</span><b class="b">1</b><span class="add">+</span>
+					</div>
+				</div>				
+			</div>
+			</a>	
+
+			
+			
+		</div>	
+
+		
+		<div class="jiesuan">
+			<p>合计:</p><span>4金币</span>
+			<a href="jieSuan.html">结算</a>			
+		</div>
+		<div class="footer">
+		    <a href="index.html"><div class="ico_img"><img src="images/shouye@3x.png"></div><span >首页</span></a>
+		    <a href="faXian.html"><div class="ico_img"><img src="images/faxian@3x.png"></div><span>发现</span></a>
+		    <a href=""><div class="ico_img"><img src="images/gouwuche@3x.png" style="color:#eb1d66"></div><span>购物车</span></a>    
+		    <a href="my.html"><div class="ico_img"><img src="images/wode@3x.png"></div><span>我的</span></a>
+		 </div>
+	</div>
+</body>
+</html>

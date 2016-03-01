@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>开店申请</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/shop.css">	
+	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			
+			$(".mes_choose").click(function(){
+				var imgClass = $(this).find(".radio img").attr("class");
+				$(this).siblings().find(".radio img").addClass("img_hide")
+				imgClass == "img_hide"? $(this).find(".radio img").removeClass("img_hide") :　$(this).find(".radio img").addClass("img_hide");
+			})
+			$(".two ul li a").click(function  () {
+				$(this).toggleClass("selected");
+			})
+		});
+	</script>
+</head>
+<body>
+	<div id="wrap">
+		<div id="top">
+			<a href="index.html"><img src="images/fanhui@3x.png" alt="back"></a>
+			<h2>开店申请</h2>		
+		</div>
+		<div class="mes">
+			<p>尊敬的用户您好！我是客服小鱼，请您耐心填写以下内容温馨提示：请认真填写以下内容，我们会尽快与您取得联系！</p>
+			
+			<form>
+				<div class="one">
+					<ul>
+						<li><a>姓名</a><input type="text"></li>
+						<li>
+							<div class="mes_choose">
+								<div class="radio"><img class="img_hide"  src="images/xuanzhong@3x.png"/></div>
+								<a>男</a>
+							</div>
+							<div class="mes_choose">
+								<div class="radio"><img class="img_hide"  src="images/xuanzhong@3x.png"/></div>
+								<a>女</a>
+
+							</div>
+						</li>
+						<li><a>电话</a><input type="text"></li>
+						<li><a>店名</a><input type="text"></li>
+						<li>
+							<div class="mes_choose">
+								<div class="radio"><img class="img_hide"  src="images/xuanzhong@3x.png"/></div>
+								<a>个人</a>
+							</div>
+							<div class="mes_choose">
+								<div class="radio"><img class="img_hide"  src="images/xuanzhong@3x.png"/></div>
+								<a>企业</a>
+							</div>
+							<div class="mes_choose">
+								<div class="radio"><img class="img_hide"  src="images/xuanzhong@3x.png"/></div>
+								<a>连锁</a>
+							</div>
+						</li>
+						<li><a>地址</a><input type="text"></li>
+						<li><a>商圈</a><input type="text" placeholder=" 例如：天通苑"></li>
+						<li><a>邮箱</a><input type="text"></li>
+						<li><h3>从业年数</h3>
+							<div class="mes_choose">
+								<div class="radio"><img class="img_hide"  src="images/xuanzhong@3x.png"/></div>
+								<a>1年</a>
+							</div>
+							<div class="mes_choose">
+								<div class="radio"><img class="img_hide"  src="images/xuanzhong@3x.png"/></div>
+								<a>2~4年</a>
+							</div>
+							<div class="mes_choose">
+								<div class="radio"><img class="img_hide"  src="images/xuanzhong@3x.png"/></div>
+								<a>5年以上</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="two">
+					<h3>所属行业</h3>
+					<ul>
+						<li><a href="javascript:void(0);">美发</a></li>
+						<li><a href="javascript:void(0);">美容养生</a></li>
+						<li><a href="javascript:void(0);">美发</a></li>
+						<li><a href="javascript:void(0);">美发</a></li>
+						<li><a href="javascript:void(0);">美发</a></li>
+						<li><a href="javascript:void(0);">美发</a></li>
+						<li><a href="javascript:void(0);">美发</a></li>
+						<li><a href="javascript:void(0);">美发</a></li>
+					</ul>	
+				</div>
+				<div class="three">
+					<h3>留言</h3>
+					<textarea></textarea>
+					<input type="submit" value="提交" class="btn">
+				</div>
+				
+			</form>
+		</div>
+		<div class="clear"></div>
+	</div>
+</body>
+</html>

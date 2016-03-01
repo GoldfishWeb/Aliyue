@@ -1,0 +1,64 @@
+
+#wrap{float:left;width:100%;margin:0 auto;height:auto;background: #f2f2f2;}
+#top{float:left;width:100%;height:48px;float:left;background: #fff;border-bottom: 1px solid #ccc;}
+#top a {display: block;float: left;height:48px;width:50px;cursor: pointer;margin-left: 4.8%;}
+#top a img{float:left;height:40%;margin-top: 14px;}
+#top h2{display: inline-block;line-height: 48px;color:#444;font-weight: lighter;
+		margin-left: 26%;font-size: 1.6em;}
+
+.mes{width:100%;height:auto;float: left;}
+.mes p{width:100%;text-align: center;height:50px;background: #fff;line-height: 25px;font-size: 1.2em;color: #888;}
+
+.mes .one ul {width:100%;height:auto;margin-top: 20px;}
+.mes .one ul li{width:100%;height:50px;float: left;line-height: 50px;}
+.mes .one ul li input{width: 50%;height:35px;border:1px solid #ccc;margin-left: 3%;background: #f2f2f2;}
+.mes .one ul li a {float: left;font-size: 1.4em;margin-left: 5%;}
+.mes .one ul li h3 {font-size: 1.4em;margin-left:5%;font-weight: lighter;}
+.mes .one{width:100%;float: left;margin-top: 10px;background: #fff;height: 538px;}
+
+.mes .two{width:100%;height:148px;background: #fff;margin-top: 10px;float: left;}
+.mes .two h3 {font-size: 1.4em;margin-left:5%;font-weight: lighter;line-height: 40px;}
+.mes .two ul{width:85%;margin-left:5%;height:auto;float: left;}
+.mes .two ul li{width:70px;height:33px;background: #f2f2f2;border: 1px solid #ccc;text-align: center;
+				float:left;line-height: 33px;margin-left: 2%;margin-top: 8px;}
+.mes .two ul li a{color: #666;display: block;width:100%;height:100%;font-size: 1.2em;}
+
+.mes .three{width:100%;height:148px;background: #fff;margin-top: 10px;float: left;}
+.mes .three h3 {font-size: 1.4em;margin-left:5%;font-weight: lighter;line-height: 40px;}
+.mes .three textarea{width:80%;margin-left: 10%;float: left;height:50px;border: 0;font-size: 1.2em;}
+
+.mes form .btn{width:80%;height:46px;background: #eb1d66;border: 0;color: #fff;font-size: 1.8em;
+			margin-left: 10%;margin-top: 5px;font-family: '微软雅黑';border-radius: 5px;cursor: pointer;}
+.clear{clear: both;}
+.mes_choose{float: left;width: 100px;height: 50px;cursor: pointer;margin-left: 2%;}
+.radio{position:relative;width:20px;height: 20px;border-radius: 20px;float: left;background: #fff;
+		margin-top: 15px;margin-left: 20%;border: #919191 1px solid;}
+.radio img{position:absolute;width: 30px;left:-5px;top: -5px;}
+.img_hide{display: none;}
+
+.selected{background:rgba(0,0,0,.2);border:1px solid #000;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>申请退款</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/tuiKuan.css">
+	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="layer/layer.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$(".tuikuan button").click(function(){
+				//询问框
+				layer.confirm('亲！退款一旦提交，预约讲失效', {
+				    btn: ['确定','取消'] //按钮
+				,
+				title:false,
+				closeBtn:false
+				});
+			});
+
+			var monney_li = $(".money ul li");
+			
+			monney_li.click(function(){
+				$(this).siblings().removeClass("sel");
+				$(this).addClass("sel")
+			})
+			
+			$(".reason ul li").click(function(){
+				
+				var imgClass = $(this).find(".radio img").attr("class");
+				$(this).siblings().find(".radio img").addClass("img_hide")
+				imgClass == "img_hide"? $(this).find(".radio img").removeClass("img_hide") :　$(this).find(".radio img").addClass("img_hide");
+			})
+		})
+	</script>
+</head>
+<body>
+	<div id="wrap">
+		<div id="top">
+			<a href="zerolistdetail.html"><img src="images/fanhui@3x.png" alt="back"></a>
+			<h2>申请退款</h2>
+		</div>
+		<div class="money">
+			<h2><a>退款金额</a><span>22.00元</span></h2>
+			<p>温馨提示：以上费用7-15个工作日内退回到原支付账户中，暂不收取手续费</p>
+		</div>
+		<div class="reason">
+			<h2><p>退款原因</p></h2>
+			<ul>
+				<li><a href="">与描述不符</a>
+					<div class="mes_choose"><div class="radio"><img class="img_hide" src="images/xuanzhong@3x.png"/></div></div>
+				</li>
+				<li><a href="">不喜欢它了</a>
+					<div class="mes_choose"><div class="radio"><img class="img_hide" src="images/xuanzhong@3x.png"/></div></div>
+				</li>
+				<li><a href="">其他原因</a>
+					<div class="mes_choose"><div class="radio"><img class="img_hide" src="images/xuanzhong@3x.png"/></div></div>
+				</li>
+			</ul>
+		</div>
+		<div class="mes">
+			<h2><p>请完善信息</p></h2>
+			<form>
+				<ul>
+					<li><p>快递公司</p><input type="text" value="中通快递"></li>
+					<li><p>快递单号</p><input type="text" value="10929102"></li>
+				</ul>
+			</form>
+		</div>
+		<div class="tuikuan">
+			<button>确认退款</button>			
+		</div>
+		<div class="clear"></div>
+	</div>
+</body>
+</html>

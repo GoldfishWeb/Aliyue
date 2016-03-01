@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>抢宝消息</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/Message.css">
+</head>
+
+<body>
+	<div id="wrap">
+		<div id="top">
+			<a href="mybao.html"><img src="images/fanhui@3x.png" alt="back"></a>
+			<ul class="ka clearfix">
+				<li><a href="javascript:void(0)">公告</a></li>
+				<li><a href="javascript:void(0)">消息</a></li>
+			</ul>	
+		</div>
+		<div class="nr">
+			<div class="news content">
+				<ul>
+					<a href="changjian.html"><li><img src="images/icon@3x.png"><h2>常见问题</h2><p>信息的描述</p><p>信息的描述</p></li></a>
+					<a href="qiangbaoGuiZe.html"><li><img src="images/icon@3x.png"><h2>抢宝规则</h2><p>信息的描述</p><p>信息的描述</p></li></a>					
+					<a href="shiYong.html"><li><img src="images/icon@3x.png"><h2>抢宝使用声明</h2><p>信息的描述</p><p>信息的描述</p></li></a>
+					<a href="MessageDetail1.html"><li><img src="images/icon@3x.png"><h2>最新消息</h2><p>信息的描述</p><p>信息的描述</p></li></a>
+				</ul>
+			</div>
+			<div class="mes content">
+				<ul>
+					<a href="MessageDetail.html"><li><h2><p>12</p><span>月</span></h2><b>推送消息</b><img src="images/shanchu2@3x.png"></li></a>
+				</ul>
+				<div class="circle">566</div>
+			</div>
+		</div>
+		<div class="clear"></div>
+	</div>
+</body>
+<script>
+	tab(document.getElementById("wrap"),1,"click");
+	function tab(obj,index,eventType)
+	{	
+		var kk =obj.getElementsByClassName("ka")[0];
+		var kas = obj.getElementsByClassName("ka")[0].getElementsByTagName("a");
+		// console.log(kas);
+			nrs = obj.getElementsByClassName("content");
+		// console.log(nrs);
+		var selectedObj = kas[index-1];
+		var blockObj = nrs[index-1];
+		kas[index-1].className = "selected";
+		nrs[index-1].style.display="block";
+		for(var i=0;i<kas.length;i++)
+		{
+			kas[i].addEventListener(eventType,tabEvent);
+			
+		}
+		function tabEvent()
+		{
+			
+			selectedObj.className="";
+			// alert(selectedObj);
+			this.className = "selected";
+			selectedObj=this;//kas[1]
+			for(var j=0;j<kas.length;j++)
+			{
+				if(kas[j]==this)
+				{
+					kk.style.background="url(images/li"+j+".png)";
+					blockObj.style.display="none";
+					nrs[j].style.display="block";
+					
+					blockObj=nrs[j];
+				}
+			}
+		}
+	}
+	</script>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>登录</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/login.css">
+	<script type="text/javascript" src='js/jquery-1.8.3.min.js'></script>
+	<script>
+		$(function(){
+			$('.em').toggle(function(){
+				$(this).find('img')[0].src='images/dengluduihao.png';
+			},function(){
+				$(this).find('img')[0].src='images/kuang.png';
+			})
+		})
+	</script>
+</head>
+<body>
+	<div id="wrap">
+		<img src="images/yuan3.png">
+		
+		<form action="index.html">
+			<ul>
+				<li><span><img src="images/dengluyonghu@3x.png"></span><input type="text" value="131331313113"></li>
+				<li><span><img src="images/denglumima@3x.png"></span><input type="password" value="131331313113">
+					<em class="em"><img src="images/kuang.png"></em></li>
+			</ul>
+			<input type="submit" value="登录" class="btn">
+		
+			<a href="register.html">注册</a><a href="forget.html" class="forget">忘记密码</a>	
+		</form>
+
+	</div>
+</body>
+</html>

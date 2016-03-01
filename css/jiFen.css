@@ -1,0 +1,55 @@
+
+#wrap{float:left;width:100%;margin:0 auto;height:auto;background: #f2f2f2;}
+#top{float:left;width:100%;height:48px;border-bottom: 1px solid #ccc;float:left;background: #fff;}
+#top a {display: block;float: left;height:48px;width:50px;cursor: pointer;margin-left: 4.8%;}
+#top a img{float:left;height:40%;margin-top: 14px;}
+#top h2{float:left;display: inline-block;line-height: 48px;color:#444;font-weight: lighter;
+		margin-left: 26%;font-size: 1.6em;}
+#top .span img{height:18px;float:right;margin-top: 14px;}		
+#top .span{display: inline-block;width:10%;height:48px;background: #fff;float: right;margin-right: 5%;}
+
+.yuE{float: left;width: 100%;height: 108px;background: #fff;}
+.yuE h2{margin-left: 5%;font-size: 1.6em;font-weight: lighter;line-height: 40px;display: inline-block;}
+.yuE span{float: right;color: #666;margin-right: 5%;line-height: 40px;font-size: 1.4em;}
+.yuE p{margin-left: 5%;font-size: 4em;color: #eb1d66;margin-top: 8px}
+
+.chong{float: left;width: 100%;font-size: 1.4em;margin-top: 10px;background: #fff;height:44px;
+		line-height: 44px;border-bottom: 1px solid #eee;}
+.chong img{float: left;height: 20px;margin-top: 11px;margin-left: 5%;}
+.chong p{float: left;margin-left:1%;}
+
+.yy{float:left;width:100%;height:auto;float: left;background: #fff;}
+.yy ul{float: left;width: 100%;height: auto;}
+.yy ul li{float: left;width:100%;height:37px;list-style: none;line-height: 44px;}
+.yy ul li a{margin-left: 5%;font-size: 1.4em;color: #666;}
+.yy ul li span{background: #fb873c;width:68px;height: 21px;display: block;text-align: center;margin-top: 12px;
+				border-radius: 10px;float: right;line-height: 21px;color: #fff;margin-right: 5%;}
+
+.clear{clear: both;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
